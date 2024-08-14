@@ -1,0 +1,53 @@
+.customCard {
+  background:#bdc3c7;
+  border: none !important;
+  color: #222 !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  border-radius: 15px !important;
+}
+
+.customCard img {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.customCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3) !important;
+}
+
+.cardTitle {
+  font-weight: bold;
+  color: #ecf0f1;
+}
+
+.cardText {
+  font-weight: 500;
+  color: #222;
+}
+
+.cardBtn {
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.animateCard {
+  animation: fadeInUp 0.5s ease-out !important;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .custom-card {
+    margin-bottom: 1.5rem;
+  }
+}
