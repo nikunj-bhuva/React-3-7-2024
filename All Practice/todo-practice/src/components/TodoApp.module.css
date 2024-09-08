@@ -1,0 +1,5 @@
+.addImg {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+}
