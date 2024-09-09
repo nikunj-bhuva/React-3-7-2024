@@ -3,10 +3,10 @@ import ProductCard from "./Components/Productcard";
 const App = () => {
   return (
     <div className="container">
-      <h1 className="text-center mt-4 mb-5 bg-dark text-white p-2 rounded-5">
+      <h1 className="text-center mt-4 mb-5 bg-sky-400 text-white p-2 rounded-5">
         Products
       </h1>
-      <div className="d-flex gap-4">
+      <div className="flex gap-4">
         <ProductCard
           imgSrc="men1"
           title="U.S. Polo Assn. Denim"

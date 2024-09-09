@@ -3,7 +3,7 @@ const ProductCard = ({ imgSrc, title, description, price }) => {
   console.log(imgUrl);
   return (
     <div
-      className="card bg-dark-subtle text-center rounded-5"
+      className="bg-yellow-100 p-3 text-center rounded-5"
       style={{ width: "18rem" }}
     >
       <img
@@ -12,12 +12,12 @@ const ProductCard = ({ imgSrc, title, description, price }) => {
         alt={imgUrl}
         style={{ height: "250px", objectFit: "contain" }}
       />
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
-        <a href="#" className="btn btn-dark">
+      <div className="card-body mt-4">
+        <h5 className="text-1xl font-bold underline">{title}</h5>
+        <p className="card-text text-sm">{description}</p>
+        <button className="text-slate-950 bg-cyan-500 hover:bg-cyan-600 p-2 rounded border-teal-300 font-medium">
           {price}
-        </a>
+        </button>
       </div>
     </div>
   );
