@@ -1,0 +1,10 @@
+.addImg {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+}
+.update-img {
+  width: 70px;
+  height: 45px;
+  object-fit: contain;
+}
