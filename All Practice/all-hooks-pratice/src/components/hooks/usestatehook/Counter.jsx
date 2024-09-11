@@ -33,7 +33,7 @@ const Counter = () => {
           Increment
         </button>
       </div>
-      <ChildCounter Count={count} />;
+      <ChildCounter Count={count} />
     </>
   );
 };
