@@ -1,0 +1,140 @@
+/* Body CSS */
+
+body {
+  transition: background-color 0.5s ease;
+}
+
+.dark-mode-body-dark {
+  background-color: #23272ff2 !important;
+}
+
+.dark-mode-body-light {
+  background-color: rgb(242, 248, 254) !important;
+}
+
+.navbar {
+  height: 80px;
+  transition: background-color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-logo-khakhi {
+  width: 240px !important;
+  height: 60px !important;
+  object-fit: cover !important;
+}
+
+.navbar-light {
+  background-color: rgb(242, 248, 254);
+}
+
+.navbar-dark {
+  background-color: #23272ff2;
+}
+
+.drop-down-dark {
+  background-color: #23272ff2 !important;
+}
+
+.nav-height {
+  height: 32px;
+}
+
+.search-btn-khaki {
+  background-color: #c3b048 !important;
+  border: 2px solid #c3b048 !important;
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.search-btn-dark {
+  background-color: #23272ff2 !important;
+  border: 2px solid white !important;
+  color: white !important;
+}
+
+.nav-item-khakhi {
+  color: #c3b048 !important;
+  text-shadow: 1px 1px 1px #343a40;
+  font-weight: 600 !important;
+}
+
+.nav-iem-no-active {
+  text-shadow: 1px 1px 1px #343a40;
+  font-weight: 600 !important;
+}
+
+.nav-item-khakhi:hover {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+}
+
+.nav-item-light {
+  color: white !important;
+}
+
+.light-color {
+  background-color: white !important;
+  border: 1px solid wheat;
+}
+
+.light-color:hover {
+  border: none;
+}
+
+.dark-color {
+  background-color: #23272ff2 !important;
+  border: 1px solid wheat;
+  color: white !important;
+}
+
+.bi-brightness-high-fill,
+.bi-moon-stars-fill {
+  transition: transform 0.3s ease, fill 0.3s ease !important;
+  color: #000000;
+}
+
+.bi-brightness-high-fill {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.bi-moon-stars-fill {
+  transform: rotate(360deg) !important;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.dark-mode-button {
+  width: 80px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* todo app css */
+
+.addImg {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.editImg {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+}
+.deleteImg {
+  width: 60px;
+  height: 35px;
+  object-fit: contain;
+}
