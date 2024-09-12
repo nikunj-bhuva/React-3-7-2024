@@ -5,7 +5,7 @@ const TodoAppData = ({ addItems, setAddItems }) => {
   let [editId, setEditId] = useState(null);
 
   useEffect(() => {
-    let getTodoData = JSON.parse(localStorage.getItem("todoData")) || null;
+    let getTodoData = JSON.parse(localStorage.getItem("todoData")) || [];
     setAddItems(getTodoData);
   }, []);
 
