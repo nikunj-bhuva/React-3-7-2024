@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "nikunj",
+    "email": "nb789@gmail.com",
+    "password": 1234,
+    "grid": 7777,
+    "skills": [{ "Language": "javascript" }]
+  },
+  {
+    "id": 2,
+    "name": "manav",
+    "email": "manav54@gmail.com",
+    "password": 8945,
+    "grid": 4545,
+    "skills": [{ "Language": "c" }]
+  },
+  {
+    "id": 3,
+    "name": "masoom",
+    "email": "masoom456@gmail.com",
+    "password": 6789,
+    "grid": 2323,
+    "skills": [{ "Language": "python" }]
+  },
+  {
+    "id": 4,
+    "name": "satyajit",
+    "email": "satyajit12@gmail.com",
+    "password": 1213,
+    "grid": 5554,
+    "skills": [{ "Language": "go" }]
+  }
+]
