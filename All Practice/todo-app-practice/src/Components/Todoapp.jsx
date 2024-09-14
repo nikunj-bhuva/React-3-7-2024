@@ -1,122 +1,125 @@
-import { useState } from "react";
-import NotFoundData from "./NotFoundData";
+import styles from "../components/TodoApp.module.css";
 import addLogo from "../assets/add_14595162.png";
-import editLogo from "../assets/edit_738880.png";
-import deleteLogo from "../assets/trash-bin_5055247.png";
-import styles from "../Components/Todoapp.module.css";
+import todoLogo from "../assets/to-do-list.png";
+import { useState } from "react";
 
 const TodoApp = () => {
-  // debugger;
+  let [taskValue, setTaskValue] = useState(""); //initial state value of taskvalue.
+  let [items, setItems] = useState([]); //initial state value of items.
+  let [editId, setEditId] = useState(null); //initial state value of editId.
 
-  const [userValue, setUserValue] = useState("");
-  const [tasks, setTasks] = useState([]);
-  const [editId, setEditId] = useState(null);
+  // handle input value //
 
-  // Handler Input //
-
-  const handlerInput = (e) => {
-    // debugger;
-    setUserValue(e.target.value);
-    console.log(e.target.value);
+  const handleInputValue = (e) => {
+    setTaskValue(e.target.value); //set input value in taskvalue state.
   };
 
-  // Add Tasks Handler //
-
-  const handlerAddTask = () => {
-    // debugger;
-    userValue === ""
-      ? alert("please enter your value!")
-      :  setTasks([...tasks, userValue]);
-    setUserValue("");
+  const handleAddTasks = () => {
+    if (taskValue.trim() === "") {
+      alert("please enter your todo Items!"); //empty task value msg.
+    } else if (taskValue.length < 4) {
+      alert("you must enter minimun 4 Characters!"); //minimum 4 characters msg.
+    } else {
+      setItems([...items, taskValue]); //set new task values in items.
+      setTaskValue(""); //empty taskvalue after adding tasks.
+    }
   };
 
-  // Edit Tasks Handler //
+  // handle for update tasks //
 
-  const handlerEditTask = (edit, id) => {
-    // debugger;
-    setUserValue(edit);
-    setEditId(id);
-    console.log(edit);
-    console.log(id);
+  const handleupdateTasks = () => {
+    if (taskValue === "") {
+      alert("please update your todo Items!"); //empty taskvalue msg.
+    } else if (taskValue.length < 4) {
+      alert("you must enter minimun 4 Characters!");
+    } else {
+      let updateItems = [...items];
+      updateItems[editId] = taskValue; //update taskvalue in updated items.
+      setItems(updateItems); //update items in items state.
+      setTaskValue(""); //empty task value after update items.
+      setEditId(null); //update editId after update items.
+    }
   };
 
-  // Delete Tasks Handler //
+  // handle for edit tasks //
 
-  const handlerDeleteTask = (id) => {
-    // console.log(id);
-    setTasks(tasks.filter((value, idx) => idx !== id));
-    // debugger;
-    // const filterTask = tasks.filter((b, idx) => {
-    //   // console.log(idx === id);
-    //   return idx !== id;
-    // });
-    // console.log(filterTask);
-    // setTasks(filterTask);
+  const handleEditTasks = (editTask, editId) => {
+    setEditId(editId); //set editId in editId state.
+    setTaskValue(editTask); //edit task item in task value.
   };
 
-  const taskList = tasks.map((value, id) => {
-    // debugger;
-    return (
-      <li
-        key={id}
-        className="d-flex justify-content-between m-2 align-items-center fw-bolder ps-4 bg-dark-subtle p-3 rounded-5 fs-5"
-      >
-        {value}
-        <div>
-          <img
-            role="button"
-            className={`${styles.editImg}`}
-            src={editLogo}
-            alt={value}
-            onClick={() => handlerEditTask(value, id)}
-          />
-          <img
-            role="button"
-            className={`${styles.deleteImg}`}
-            src={deleteLogo}
-            alt={value}
-            onClick={() => handlerDeleteTask(id)}
-          />
-        </div>
-      </li>
-    );
-  });
+  // handle for delete tasks //
 
-  console.log(taskList);
-  console.log(tasks);
+  const handleDeleteTasks = (id) => {
+    setItems(items.filter((__, idx) => idx !== id)); //set deleted items
+  };
+
+  // remove dulication values in items //
+
+  const removeDuplicateItems = items.filter(
+    (item, index, items) => index === items.indexOf(item)
+  );
 
   return (
-    <>
-      <div className="input d-flex justify-content-center">
-        <input
-          type="text"
-          className="form-control fw-bolder"
-          id="formGroupExampleInput"
-          placeholder="Add todo items..."
-          value={userValue}
-          onChange={handlerInput}
-        />
-        <img
-          role="button"
-          className={`${styles.addImg}`}
-          src={addLogo}
-          alt={addLogo}
-          onClick={handlerAddTask}
-        />
+    <div className={`container ${styles.main} mt-5`}>
+      <h1 className="text-center mb-5 pt-4 text-dark">
+        Todo App
+        <img src={todoLogo} alt="To-do List" className={styles.todoImg} />
+      </h1>
+      <div className="d-flex justify-content-center">
+        <form className="w-50" onSubmit={(e) => e.preventDefault()}>
+          <div className={`${styles.inputWrapper} d-flex`}>
+            <input
+              type="text"
+              className={`form-control me-3 ${styles.formControl}`}
+              placeholder="Add your todo here..."
+              value={taskValue}
+              onChange={handleInputValue}
+            />
+            {editId === null ? (
+              <button
+                className={`btn ${styles.addButton}`}
+                onClick={handleAddTasks}
+              >
+                Add
+              </button>
+            ) : (
+              <button
+                className={`btn ${styles.addButton}`}
+                onClick={handleupdateTasks}
+              >
+                Update
+              </button>
+            )}
+          </div>
+          <ul className="list-unstyled mt-4">
+            {/* rendering todo items */}
+            {removeDuplicateItems.map((item, id) => (
+              <li
+                key={id}
+                className={`${styles.listItem} d-flex justify-content-between align-items-center`}
+              >
+                {item}
+                <div>
+                  <button
+                    className={`btn ${styles.editButton}`}
+                    onClick={() => handleEditTasks(item, id)}
+                  >
+                    Edit
+                  </button>
+                  <button
+                    className={`btn text-center ms-3 ${styles.deleteButton}`}
+                    onClick={() => handleDeleteTasks(id)}
+                  >
+                    Delete
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </form>
       </div>
-      <div>
-        <ul className="text-center list-unstyled m-auto d-flex flex-column mt-3">
-          {/* {tasks.map((value, idx) => (
-          <li key={idx}>
-            {value}
-            <button>Edit</button>
-            <button>Delete</button>
-          </li>
-        ))} */}
-          {taskList.length === 0 ? <NotFoundData /> : taskList}
-        </ul>
-      </div>
-    </>
+    </div>
   );
 };
 

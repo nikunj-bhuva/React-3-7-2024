@@ -1,15 +1,89 @@
-.addImg {
-  width: 60px;
-  height: 35px;
-  object-fit: contain;
+.main {
+  background: #fdfdfd !important; /* A soft white color */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px !important;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1px solid #ddd !important;
 }
-.editImg {
+
+.todoImg {
   width: 60px;
-  height: 35px;
-  object-fit: contain;
+  height: 60px;
 }
-.deleteImg {
-  width: 60px;
+
+.listBtn {
+  width: 80px;
   height: 35px;
-  object-fit: contain;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.addButton,
+.deleteButton,
+.editButton {
+  width: auto;
+  padding: 8px 16px;
+  height: auto;
+  line-height: 1.5;
+}
+
+.addButton {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+
+.addButton:hover {
+  background-color: #0056b3 !important;
+}
+
+.deleteButton {
+  background-color: #dc3545 !important;
+  color: #fff !important;
+}
+
+.deleteButton:hover {
+  background-color: #c82333 !important;
+}
+
+.editButton {
+  background-color: #ffc107 !important;
+  color: #212529 !important;
+}
+
+.editButton:hover {
+  background-color: #e0a800 !important;
+}
+
+.listItem {
+  background: #ffffff !important;
+  border: 1px solid #ddd !important;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputWrapper {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  border: 2px solid #007bff !important;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s !important;
+}
+
+.formControl:focus {
+  border-color: #0056b3 !important;
+  box-shadow: 0 0 0 2px rgba(0, 91, 255, 0.3) !important;
+}
+
+.formControl:hover {
+  border-color: #0056b3 !important;
 }
