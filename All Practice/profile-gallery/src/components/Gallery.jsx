@@ -1,16 +1,23 @@
+import { Children } from "react";
 import GalleryImgUrl from "./GalleryImgUrl";
 
 const Gallery = ({
+  profileId,
   name,
   imgId,
   profession,
   award,
   awardNumber,
   discovered,
+  children
 }) => {
   return (
-    <div className="col-lg-6 border-5 border border-dark-subtle bg-primary-subtle p-4 rounded-5" style={{width:"47%"}}>
+    <div
+      className="col-lg-6 border-5 border border-dark-subtle bg-primary-subtle p-4 rounded-5"
+      style={{ width: "47%" }}
+    >
       <section className="profile fw-medium">
+        {profileId}
         <h2>{name}</h2>
         <img
           className="avatar  rounded-5 mt-3"
@@ -34,6 +41,7 @@ const Gallery = ({
           </li>
         </ul>
       </section>
+      <div>{children}</div>
     </div>
   );
 };
