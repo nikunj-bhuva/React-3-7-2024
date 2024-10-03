@@ -1,14 +1,16 @@
-const MenProduct = ({ title, imgSrc, description, price, rating }) => {
+const WomenProduct = ({ imgSrc, title, description, price, rating }) => {
   // dynamic path url's //
 
   const imgUrl = `src/assets/${imgSrc}.webp`;
+
+  // rating class css condition //
 
   const ratingCondition = rating >= 8.5 ? "#f7dc6f" : "#7dcea0";
 
   return (
     <div className="col-3">
       <div
-        className="card p-2 rounded-4 text-center bg-dark-subtle"
+        className="card p-2 rounded-4 text-center bg-danger-subtle"
         style={{ width: "16rem" }}
       >
         <img
@@ -20,7 +22,9 @@ const MenProduct = ({ title, imgSrc, description, price, rating }) => {
         />
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
-          <p className="card-text fw-medium mt-3 mb-3">{description}</p>
+          <p className="card-text fw-medium mt-3 mb-3">
+            {description.slice(0, 50)}
+          </p>
           <p>
             <strong>{price}</strong>
           </p>
@@ -42,4 +46,4 @@ const MenProduct = ({ title, imgSrc, description, price, rating }) => {
   );
 };
 
-export default MenProduct;
+export default WomenProduct;
