@@ -20,9 +20,7 @@ const EventHandler = () => {
         Click Me
       </button>
       {/* call back function as a onclick event and passing arguments to welcomeusermessage function */}
-      <button onClick={(e) => handleWelcomeUserMessage(e)}>
-        Click Me
-      </button>
+      <button onClick={(e) => handleWelcomeUserMessage(e)}>Click Me</button>
     </>
   );
 };
