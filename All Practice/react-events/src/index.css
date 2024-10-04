@@ -1,0 +1,31 @@
+.g-div {
+  width: 400px;
+  height: 150px;
+  background-color: skyblue;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.p-div {
+  width: 370px;
+  height: 110px;
+  background-color: pink;
+  border: 2px solid black;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.c-div {
+  width: 340px;
+  height: 70px;
+  background-color: khaki;
+  border: 2px solid black;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0px;
+}
