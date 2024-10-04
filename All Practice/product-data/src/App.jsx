@@ -1,3 +1,4 @@
+import FilterProducts from "./components/FilterProducts";
 import ProductRendering from "./components/ProductRendering";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       </h1>
       <div className="row row-gap-4">
         <ProductRendering />
+        <FilterProducts />
       </div>
     </div>
   );
