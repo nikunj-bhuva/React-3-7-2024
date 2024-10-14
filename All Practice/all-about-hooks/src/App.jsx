@@ -3,6 +3,7 @@ import Counter from "./components/hooks/usestate/Counter";
 import BackgroundColors from "./components/hooks/usestate/BackgroundColors";
 import State from "./components/hooks/usestate/State";
 import LiftState from "./components/hooks/usestate/LiftState";
+import FormControl from "./components/hooks/usestate/FormControl";
 
 const App = () => {
   return (
@@ -20,10 +21,14 @@ const App = () => {
       </h1>
       <BackgroundColors />
       <State /> */}
-      <h1 className="text-center text-4xl mb-16 mt-16 bg-green-400 text-white font-bold p-3 rounded-full">
+      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-green-400 text-white font-bold p-3 rounded-full">
         -: Lift State :-
       </h1>
-      <LiftState />
+      <LiftState /> */}
+      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+        Form Control
+      </h1>
+      <FormControl />
     </div>
   );
 };

@@ -8,3 +8,25 @@
   border: 2px solid black;
   text-align: center;
 }
+
+label {
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: #222;
+  font-weight: 500;
+}
+
+.parent {
+  width: 100%;
+  height: auto;
+  padding: 60px;
+}
+
+.child {
+  width: 100%;
+  height: auto;
+  text-align: start;
+  border: 4px dashed white;
+}
