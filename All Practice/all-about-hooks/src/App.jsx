@@ -27,18 +27,15 @@ const App = () => {
         -: Lift State :-
       </h1>
       <LiftState /> */}
-      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
         Form Control
       </h1>
-      <FormControl />
+      <FormControl /> */}
       {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
         Toggle Switcher
       </h1>
       <ToggleSwitcher /> */}
-      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
-        Todo App
-      </h1> */}
-      {/* <TodoApp /> */}
+      <TodoApp />
     </div>
   );
 };
