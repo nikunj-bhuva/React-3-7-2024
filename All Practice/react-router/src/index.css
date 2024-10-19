@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: khaki !important;
+  font-size: 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  background-color: teal;
+  padding: 20px;
+}
+.crimson {
+  background-color: crimson;
+  color: aliceblue !important;
+  padding: 2px;
+}
+.blue {
+  background-color: blue;
+  color: aliceblue !important;
+  padding: 2px;
+}

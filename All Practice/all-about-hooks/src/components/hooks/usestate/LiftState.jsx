@@ -1,5 +1,5 @@
 import DisplayInputValue from "./DisplayInputValue";
-import InputValue from "./InputValue";
+import InputValue from "./projects/formcontrol/InputValue";
 import { useState } from "react";
 
 const LiftState = () => {
