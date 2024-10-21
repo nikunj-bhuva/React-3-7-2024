@@ -49,7 +49,6 @@ const TodoApp = () => {
       setEmptyMessage(false); //after adding input value in given input set emptyMessage false in state variable.
     } else {
       setAddTasks([...addTasks, inputValue]); //addtasks to addTasks state variable.
-      // console.log("in add task:", addTasks);
       setInputValue(""); //after add tasks input value is empty.
       setEmptyMessage(false); //after add tasks set empty message false to emptyMessage state variable.
       setLengthMessage(false); //after add 3 characters in given input field set lengthErrorMessage false to state variable.
@@ -60,7 +59,8 @@ const TodoApp = () => {
     if (addTasks[editId] === inputValue) {
       setUpdateMessage(true); //after click on button and your task is old updateMessage is true.
       setLengthMessage(false); //length message false.
-      setSuccessFullUpdateMessage(false);
+      setSuccessFullUpdateMessage(false); //successfullupdatemessage false.
+      setEmptyMessage(false); //emptyMessage is false.
     } else if (inputValue.length < 3) {
       setLengthMessage(true); //set length error message to lengthErrorMessage state variable.
       setUpdateMessage(false);

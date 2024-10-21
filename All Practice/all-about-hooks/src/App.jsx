@@ -6,6 +6,7 @@ import LiftState from "./components/hooks/usestate/LiftState";
 import FormControl from "./components/hooks/usestate/projects/formcontrol/FormControl";
 import ToggleSwitcher from "./components/hooks/usestate/projects/togglebutton/ToggleSwitcher";
 import TodoApp from "./components/hooks/usestate/projects/todoapp/TodoApp";
+import UseeffectCounter from "./components/hooks/useeffect/UseEffectCounter";
 
 const App = () => {
   return (
@@ -35,7 +36,14 @@ const App = () => {
         Toggle Switcher
       </h1>
       <ToggleSwitcher /> */}
-      <TodoApp />
+      {/* <TodoApp /> */}
+
+      {/* useeffect counter  */}
+
+      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+        Use Effect
+      </h1>
+      <UseeffectCounter />
     </div>
   );
 };
