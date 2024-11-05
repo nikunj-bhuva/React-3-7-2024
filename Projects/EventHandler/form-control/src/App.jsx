@@ -1,11 +1,7 @@
-import Form from "./Components/Form";
+import FormControl from "./Components/FormControl";
 
-function App() {
-  return (
-    <>
-      <Form></Form>
-    </>
-  );
-}
+const App = () => {
+  return <FormControl />;
+};
 
 export default App;
