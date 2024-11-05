@@ -1,12 +1,13 @@
 import Backgroundcolor from "./Component/Backgroundcolor";
-import Productcard from "./Component/Productcard";
+import ProductCounter from "./Component/ProductCounter";
 
 function App() {
   return (
-    <div className="container-fluied">
-      <h1 className="mt-4 text-center bg-warning mb-5 text-uppercase text-dark rounded-5">Product Cards</h1>
-      <Productcard></Productcard>
-      <Backgroundcolor></Backgroundcolor>
+    <div className="bg-gray-100 min-h-screen py-8">
+      <h1 className="text-center text-4xl mb-16 mt-16 bg-gradient-to-r from-green-400 to-teal-500 text-white font-extrabold p-6 rounded-lg shadow-lg">
+        -: All Products :-
+      </h1>
+      <ProductCounter />
     </div>
   );
 }
