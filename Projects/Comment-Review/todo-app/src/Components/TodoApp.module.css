@@ -1,0 +1,8 @@
+.main {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input::placeholder {
+  color: #bfa888 !important;
+}

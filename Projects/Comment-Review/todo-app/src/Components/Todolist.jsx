@@ -1,91 +1,27 @@
 import { useState } from "react";
-import styles from "../Components/Todolist.module.css";
-import img from "../assets/to-do-list.png";
+import editImg from "../assets/edit_9457213.png";
+import deleteImg from "../assets/trash-bin_5055247.png";
 
-const Todolist = () => {
-  const [userValue, setUserValue] = useState("");
-  const [lists, setLists] = useState([]);
-  const [editIndex, setEditIndex] = useState(null);
-  const [isEditing, setIsEditing] = useState(false);
-
-  const handlerInput = (e) => {
-    setUserValue(e.target.value);
-  };
-
-  const handlerAdd = () => {
-    if (userValue.trim() === "") {
-      alert("Please enter a value!");
-    } else {
-      if (isEditing) {
-        setLists(
-          lists.map((item, index) => (index === editIndex ? userValue : item))
-        );
-        setIsEditing(false);
-        setEditIndex(null);
-      } else {
-        setLists([...lists, userValue]);
-      }
-      setUserValue("");
-    }
-  };
-
-  const handlerUpdate = (idx) => {
-    setUserValue(lists[idx]);
-    setIsEditing(true);
-    setEditIndex(idx);
-  };
-
-  const handlerDelete = (idx) => {
-    setLists(lists.filter((ele, index) => index !== idx));
-  };
-
-  const listItems = lists.map((element, idx) => (
-    <li
-      key={idx}
-      className={`${styles.listItem} d-flex justify-content-between align-items-center`}
-    >
-      {element}
-      <div>
-        <button
-          className={`btn ${styles.editButton}`}
-          onClick={() => handlerUpdate(idx)}
-        >
-          Edit
-        </button>
-        <button
-          className={`btn text-center ms-3 ${styles.deleteButton}`}
-          onClick={() => handlerDelete(idx)}
-        >
-          Delete
-        </button>
+const TodoList = ({ task, id, handleEditTasks, handleDeleteTasks }) => {
+  return (
+    <li className="flex bg-white shadow-xl justify-between items-center w-3/5 py-4 px-6 m-auto mt-6 rounded-xl border-4 border-[#b4e1f0] border-solid focus:outline-none focus:ring-2 focus:ring-[#b4e1f0] transition-all duration-500 ease-in-out">
+      <span className="text-lg font-semibold text-[#3e4e58]">{task}</span>
+      <div className="flex justify-center items-center space-x-6">
+        <img
+          src={editImg}
+          className="w-14 h-14 cursor-pointer transition-transform hover:scale-110 hover:rotate-6 duration-300"
+          alt="edit"
+          onClick={() => handleEditTasks(task, id)}
+        />
+        <img
+          src={deleteImg}
+          className="w-14 h-14 cursor-pointer transition-transform hover:scale-110 hover:rotate-12 duration-300"
+          alt="delete"
+          onClick={() => handleDeleteTasks(id)}
+        />
       </div>
     </li>
-  ));
-
-  return (
-    <div className={`container ${styles.main} mt-5`}>
-      <h1 className="text-center mb-5 pt-4 text-dark">
-        Todo App <img src={img} alt="To-do List" className={styles.todoImg} />
-      </h1>
-      <div className="d-flex justify-content-center">
-        <form className="w-50" onSubmit={(e) => e.preventDefault()}>
-          <div className={`${styles.inputWrapper} d-flex`}>
-            <input
-              type="text"
-              className={`form-control me-3 ${styles.formControl}`}
-              placeholder="Add your todo here..."
-              onChange={handlerInput}
-              value={userValue}
-            />
-            <button className={`btn ${styles.addButton}`} onClick={handlerAdd}>
-              {isEditing ? "Update" : "Add"}
-            </button>
-          </div>
-          <ul className="list-unstyled mt-4">{listItems}</ul>
-        </form>
-      </div>
-    </div>
   );
 };
 
-export default Todolist;
+export default TodoList;
