@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClipboardList } from "@fortawesome/free-solid-svg-icons"; // Icon for empty list
+import { faClipboardList } from "@fortawesome/free-solid-svg-icons";
 
 const EmptyTodoData = () => {
   return (
