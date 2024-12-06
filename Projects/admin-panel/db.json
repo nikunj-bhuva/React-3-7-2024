@@ -2,770 +2,777 @@
   "users": [
     {
       "id": "1",
-      "name": "User 1",
-      "email": "user1@example.com",
-      "password": "password1",
-      "createdAt": "2024-12-01T10:00:00Z"
+      "name": "Gary Flores",
+      "email": "thorntondaniel@james.com",
+      "role": "user",
+      "password": "#3XNzlOy"
     },
     {
       "id": "2",
-      "name": "User 2",
-      "email": "user2@example.com",
-      "password": "password2",
-      "createdAt": "2024-12-02T11:00:00Z"
+      "name": "Justin Ellis",
+      "email": "johnrodriguez@gmail.com",
+      "role": "user",
+      "password": "#PI5KYHa"
     },
     {
       "id": "3",
-      "name": "User 3",
-      "email": "user3@example.com",
-      "password": "password3",
-      "createdAt": "2024-12-03T12:00:00Z"
+      "name": "Brandon Evans",
+      "email": "karenbradford@hernandez.info",
+      "role": "user",
+      "password": "&*6qHNu@"
     },
     {
       "id": "4",
-      "name": "User 4",
-      "email": "user4@example.com",
-      "password": "password4",
-      "createdAt": "2024-12-04T13:00:00Z"
+      "name": "Sarah Smith",
+      "email": "saundersjessica@sampson-garcia.biz",
+      "role": "user",
+      "password": "%887JmkI"
     },
     {
       "id": "5",
-      "name": "User 5",
-      "email": "user5@example.com",
-      "password": "password5",
-      "createdAt": "2024-12-05T14:00:00Z"
+      "name": "Amy Jenkins",
+      "email": "joseph78@hotmail.com",
+      "role": "admin",
+      "password": "!$&4QPJq"
     },
     {
       "id": "6",
-      "name": "User 6",
-      "email": "user6@example.com",
-      "password": "password6",
-      "createdAt": "2024-12-06T15:00:00Z"
+      "name": "Connor Kemp",
+      "email": "clarsen@glenn.net",
+      "role": "user",
+      "password": "(f1AlB_m"
     },
     {
       "id": "7",
-      "name": "User 7",
-      "email": "user7@example.com",
-      "password": "password7",
-      "createdAt": "2024-12-07T16:00:00Z"
+      "name": "George Young",
+      "email": "austin15@yahoo.com",
+      "role": "user",
+      "password": "a!5tAjwL"
     },
     {
       "id": "8",
-      "name": "User 8",
-      "email": "user8@example.com",
-      "password": "password8",
-      "createdAt": "2024-12-08T17:00:00Z"
+      "name": "John Harrington",
+      "email": "johnsonkayla@higgins.com",
+      "role": "user",
+      "password": "^+3WGuhh"
     },
     {
       "id": "9",
-      "name": "User 9",
-      "email": "user9@example.com",
-      "password": "password9",
-      "createdAt": "2024-12-09T18:00:00Z"
+      "name": "Paula Greene",
+      "email": "frankgates@anderson.com",
+      "role": "user",
+      "password": "!8C0y+fo"
     },
     {
       "id": "10",
-      "name": "User 10",
-      "email": "user10@example.com",
-      "password": "password10",
-      "createdAt": "2024-12-10T19:00:00Z"
+      "name": "Karla Li",
+      "email": "manuelcox@yahoo.com",
+      "role": "admin",
+      "password": "f+8Qx@ih"
     },
     {
       "id": "11",
-      "name": "User 11",
-      "email": "user11@example.com",
-      "password": "password11",
-      "createdAt": "2024-12-11T20:00:00Z"
+      "name": "Diane Clark",
+      "email": "robertholmes@gmail.com",
+      "role": "user",
+      "password": "KS2I^8Yg"
     },
     {
       "id": "12",
-      "name": "User 12",
-      "email": "user12@example.com",
-      "password": "password12",
-      "createdAt": "2024-12-12T21:00:00Z"
+      "name": "Alexis Smith",
+      "email": "yolanda51@gmail.com",
+      "role": "user",
+      "password": "eI)0_NFd"
     },
     {
       "id": "13",
-      "name": "User 13",
-      "email": "user13@example.com",
-      "password": "password13",
-      "createdAt": "2024-12-13T22:00:00Z"
+      "name": "Justin Deleon",
+      "email": "lewisjoshua@yahoo.com",
+      "role": "user",
+      "password": "+L2Jk8ry"
     },
     {
       "id": "14",
-      "name": "User 14",
-      "email": "user14@example.com",
-      "password": "password14",
-      "createdAt": "2024-12-14T23:00:00Z"
+      "name": "James Duarte",
+      "email": "lanestacy@morgan.com",
+      "role": "user",
+      "password": "d#Z6etCh"
     },
     {
       "id": "15",
-      "name": "User 15",
-      "email": "user15@example.com",
-      "password": "password15",
-      "createdAt": "2024-12-15T10:30:00Z"
+      "name": "Kevin Mccoy",
+      "email": "miranda04@gill-miller.com",
+      "role": "admin",
+      "password": "*#h6IMqw"
     },
     {
       "id": "16",
-      "name": "User 16",
-      "email": "user16@example.com",
-      "password": "password16",
-      "createdAt": "2024-12-16T11:30:00Z"
+      "name": "Tiffany Willis",
+      "email": "grodgers@yahoo.com",
+      "role": "user",
+      "password": "$zs!6RUr"
     },
     {
       "id": "17",
-      "name": "User 17",
-      "email": "user17@example.com",
-      "password": "password17",
-      "createdAt": "2024-12-17T12:30:00Z"
+      "name": "Christian Watts",
+      "email": "barnettlisa@gmail.com",
+      "role": "user",
+      "password": "@Q1D$(Cw"
     },
     {
       "id": "18",
-      "name": "User 18",
-      "email": "user18@example.com",
-      "password": "password18",
-      "createdAt": "2024-12-18T13:30:00Z"
+      "name": "Samantha Hernandez DDS",
+      "email": "patrickreed@wilson.net",
+      "role": "user",
+      "password": "q#8MSE!o"
     },
     {
       "id": "19",
-      "name": "User 19",
-      "email": "user19@example.com",
-      "password": "password19",
-      "createdAt": "2024-12-19T14:30:00Z"
+      "name": "Justin Dyer",
+      "email": "charris@hotmail.com",
+      "role": "user",
+      "password": "^qw23Zx3"
     },
     {
       "id": "20",
-      "name": "User 20",
-      "email": "user20@example.com",
-      "password": "password20",
-      "createdAt": "2024-12-20T15:30:00Z"
+      "name": "Alyssa Gillespie",
+      "email": "patrickjones@jones.com",
+      "role": "admin",
+      "password": "*w9BJS%i"
     },
     {
       "id": "21",
-      "name": "User 21",
-      "email": "user21@example.com",
-      "password": "password21",
-      "createdAt": "2024-12-21T16:30:00Z"
+      "name": "Mr. Edward Rodriguez",
+      "email": "paulstrickland@case-fuentes.com",
+      "role": "user",
+      "password": "ic_H7bRd"
     },
     {
       "id": "22",
-      "name": "User 22",
-      "email": "user22@example.com",
-      "password": "password22",
-      "createdAt": "2024-12-22T17:30:00Z"
+      "name": "Catherine Valdez",
+      "email": "davistyler@yahoo.com",
+      "role": "user",
+      "password": "#e3bNme$"
     },
     {
       "id": "23",
-      "name": "User 23",
-      "email": "user23@example.com",
-      "password": "password23",
-      "createdAt": "2024-12-23T18:30:00Z"
+      "name": "Taylor Richard",
+      "email": "ralph32@robinson.com",
+      "role": "user",
+      "password": "%0C2I6ak"
     },
     {
       "id": "24",
-      "name": "User 24",
-      "email": "user24@example.com",
-      "password": "password24",
-      "createdAt": "2024-12-24T19:30:00Z"
+      "name": "Mark Mcdaniel",
+      "email": "emilymiller@miller-berry.net",
+      "role": "user",
+      "password": "*)6BDEsk"
     },
     {
       "id": "25",
-      "name": "User 25",
-      "email": "user25@example.com",
-      "password": "password25",
-      "createdAt": "2024-12-25T20:30:00Z"
+      "name": "Henry Bridges",
+      "email": "amanda73@yahoo.com",
+      "role": "admin",
+      "password": "+5m9)RBp"
     },
     {
       "id": "26",
-      "name": "User 26",
-      "email": "user26@example.com",
-      "password": "password26",
-      "createdAt": "2024-12-26T21:30:00Z"
+      "name": "Ethan Curry",
+      "email": "ffleming@singh-mason.org",
+      "role": "user",
+      "password": "(Z5jX7eG"
     },
     {
       "id": "27",
-      "name": "User 27",
-      "email": "user27@example.com",
-      "password": "password27",
-      "createdAt": "2024-12-27T22:30:00Z"
+      "name": "Wanda Ray",
+      "email": "jenniferspence@yahoo.com",
+      "role": "user",
+      "password": "+hwt0Ko^"
     },
     {
       "id": "28",
-      "name": "User 28",
-      "email": "user28@example.com",
-      "password": "password28",
-      "createdAt": "2024-12-28T23:30:00Z"
+      "name": "Robert Miller",
+      "email": "nelsonjohn@hotmail.com",
+      "role": "user",
+      "password": "*8a^P@s("
     },
     {
       "id": "29",
-      "name": "User 29",
-      "email": "user29@example.com",
-      "password": "password29",
-      "createdAt": "2024-12-29T10:00:00Z"
+      "name": "Jacob Perez",
+      "email": "brewernorma@allen.com",
+      "role": "user",
+      "password": "X5#7KInw"
     },
     {
       "id": "30",
-      "name": "User 30",
-      "email": "user30@example.com",
-      "password": "password30",
-      "createdAt": "2024-12-30T11:00:00Z"
+      "name": "Lisa Andersen",
+      "email": "twise@moses-alexander.com",
+      "role": "admin",
+      "password": "$g!7!AHe"
     },
     {
       "id": "31",
-      "name": "User 31",
-      "email": "user31@example.com",
-      "password": "password31",
-      "createdAt": "2024-12-31T12:00:00Z"
+      "name": "Keith Johnson",
+      "email": "hcox@brown.com",
+      "role": "user",
+      "password": ")w6IdA51"
     },
     {
       "id": "32",
-      "name": "User 32",
-      "email": "user32@example.com",
-      "password": "password32",
-      "createdAt": "2025-01-01T13:00:00Z"
+      "name": "Lisa Clark",
+      "email": "chadmccoy@gonzalez.com",
+      "role": "user",
+      "password": "_k566Ptw"
     },
     {
       "id": "33",
-      "name": "User 33",
-      "email": "user33@example.com",
-      "password": "password33",
-      "createdAt": "2025-01-02T14:00:00Z"
+      "name": "Christian Potter",
+      "email": "stephaniereese@gmail.com",
+      "role": "user",
+      "password": "_o87_Mkx"
     },
     {
       "id": "34",
-      "name": "User 34",
-      "email": "user34@example.com",
-      "password": "password34",
-      "createdAt": "2025-01-03T15:00:00Z"
+      "name": "Michelle Cross",
+      "email": "xstrong@hotmail.com",
+      "role": "user",
+      "password": "%29TWgxl"
     },
     {
       "id": "35",
-      "name": "User 35",
-      "email": "user35@example.com",
-      "password": "password35",
-      "createdAt": "2025-01-04T16:00:00Z"
+      "name": "Brian Schneider",
+      "email": "iguzman@franco.org",
+      "role": "admin",
+      "password": "%%92nVxD"
     },
     {
       "id": "36",
-      "name": "User 36",
-      "email": "user36@example.com",
-      "password": "password36",
-      "createdAt": "2025-01-05T17:00:00Z"
+      "name": "Lauren Hart",
+      "email": "mark01@bailey.com",
+      "role": "user",
+      "password": "R!d7Rxfl"
     },
     {
       "id": "37",
-      "name": "User 37",
-      "email": "user37@example.com",
-      "password": "password37",
-      "createdAt": "2025-01-06T18:00:00Z"
+      "name": "Michael Hamilton",
+      "email": "rodriguezwilliam@flynn-dennis.com",
+      "role": "user",
+      "password": "LX+6OPgk"
     },
     {
       "id": "38",
-      "name": "User 38",
-      "email": "user38@example.com",
-      "password": "password38",
-      "createdAt": "2025-01-07T19:00:00Z"
+      "name": "Brad Cameron",
+      "email": "crystal68@hunter.com",
+      "role": "user",
+      "password": "grx^N9Ye"
     },
     {
       "id": "39",
-      "name": "User 39",
-      "email": "user39@example.com",
-      "password": "password39",
-      "createdAt": "2025-01-08T20:00:00Z"
+      "name": "Matthew Hoffman",
+      "email": "robinsonkimberly@gmail.com",
+      "role": "user",
+      "password": "$5FWb7Rj"
     },
     {
       "id": "40",
-      "name": "User 40",
-      "email": "user40@example.com",
-      "password": "password40",
-      "createdAt": "2025-01-09T21:00:00Z"
+      "name": "Ashley Alvarez",
+      "email": "ashleyhawkins@smith.info",
+      "role": "admin",
+      "password": "B_2+B0ia"
     },
     {
       "id": "41",
-      "name": "User 41",
-      "email": "user41@example.com",
-      "password": "password41",
-      "createdAt": "2025-01-10T22:00:00Z"
+      "name": "Charles Torres",
+      "email": "adamallen@garcia.net",
+      "role": "user",
+      "password": "B%6IOCpz"
     },
     {
       "id": "42",
-      "name": "User 42",
-      "email": "user42@example.com",
-      "password": "password42",
-      "createdAt": "2025-01-11T23:00:00Z"
+      "name": "Michael Fisher",
+      "email": "melissacoffey@hotmail.com",
+      "role": "user",
+      "password": "&3Atwt!%"
     },
     {
       "id": "43",
-      "name": "User 43",
-      "email": "user43@example.com",
-      "password": "password43",
-      "createdAt": "2025-01-12T10:00:00Z"
+      "name": "Justin Pena",
+      "email": "rosalesjoshua@holland.net",
+      "role": "user",
+      "password": "^n^J8N1q"
     },
     {
       "id": "44",
-      "name": "User 44",
-      "email": "user44@example.com",
-      "password": "password44",
-      "createdAt": "2025-01-13T11:00:00Z"
+      "name": "Joseph Mcgee",
+      "email": "thompsondustin@hahn-brown.biz",
+      "role": "user",
+      "password": "w_i7Kl05"
     },
     {
       "id": "45",
-      "name": "User 45",
-      "email": "user45@example.com",
-      "password": "password45",
-      "createdAt": "2025-01-14T12:00:00Z"
+      "name": "Jaime Scott",
+      "email": "zcraig@harper.com",
+      "role": "admin",
+      "password": "O_ah1Kht"
     },
     {
       "id": "46",
-      "name": "User 46",
-      "email": "user46@example.com",
-      "password": "password46",
-      "createdAt": "2025-01-15T13:00:00Z"
+      "name": "Valerie Leonard",
+      "email": "hoganjamie@arnold.net",
+      "role": "user",
+      "password": "*!1b+Kcb"
     },
     {
       "id": "47",
-      "name": "User 47",
-      "email": "user47@example.com",
-      "password": "password47",
-      "createdAt": "2025-01-16T14:00:00Z"
+      "name": "John Diaz",
+      "email": "ithomas@brown-jackson.com",
+      "role": "user",
+      "password": "ViI)4dGi"
     },
     {
       "id": "48",
-      "name": "User 48",
-      "email": "user48@example.com",
-      "password": "password48",
-      "createdAt": "2025-01-17T15:00:00Z"
+      "name": "Richard Curtis",
+      "email": "stephanie62@wagner.com",
+      "role": "user",
+      "password": "_2Lz%Hwl"
     },
     {
       "id": "49",
-      "name": "User 49",
-      "email": "user49@example.com",
-      "password": "password49",
-      "createdAt": "2025-01-18T16:00:00Z"
+      "name": "Crystal Jones",
+      "email": "paulbrittney@tran-park.com",
+      "role": "user",
+      "password": "!4%FfoIw"
     },
     {
       "id": "50",
-      "name": "User 50",
-      "email": "user50@example.com",
-      "password": "password50",
-      "createdAt": "2025-01-19T17:00:00Z"
+      "name": "Judith Rose",
+      "email": "angela70@clay-wong.com",
+      "role": "admin",
+      "password": "z#wkd4Sn"
     },
     {
-      "id": "042a",
-      "email": "nikunjbhuva@gmail.com",
-      "password": "1234"
+      "id": "934d",
+      "name": "nikunj",
+      "email": "nb@gmail.com",
+      "role": "user",
+      "password": "12345678"
     },
     {
-      "id": "054e",
-      "email": "ashishharvara@gmail.com",
-      "password": "78910"
-    },
-    {
-      "id": "dfa5",
-      "email": "kunal@gmail.com",
-      "password": "8989"
+      "id": "6f47",
+      "name": "ashish harvara",
+      "email": "ashish@gmail.com",
+      "role": "user",
+      "password": "23232323"
     }
   ],
   "products": [
     {
-      "id": "1",
-      "name": "Product 1",
-      "description": "Description of Product 1",
-      "price": 100.99,
+      "id": 1,
+      "name": "Smartphone",
+      "price": "$499",
       "category": "Electronics",
-      "createdAt": "2024-12-01T10:00:00Z"
+      "description": "A high-performance smartphone with a sleek design and advanced features like a high-resolution camera and fast processing power.",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70&crop=false"
     },
     {
-      "id": "2",
-      "name": "Product 2",
-      "description": "Description of Product 2",
-      "price": 200.99,
-      "category": "Fashion",
-      "createdAt": "2024-12-02T11:00:00Z"
+      "id": 2,
+      "name": "Laptop",
+      "price": "$899",
+      "category": "Electronics",
+      "description": "A lightweight laptop with powerful specs for both work and play, featuring a long battery life and high-definition screen.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/w/i/y/-original-imah4qsetuyd8gwa.jpeg?q=70  "
     },
     {
-      "id": "3",
-      "name": "Product 3",
-      "description": "Description of Product 3",
-      "price": 300.99,
+      "id": 3,
+      "name": "Microwave Oven",
+      "price": "$129",
       "category": "Home Appliances",
-      "createdAt": "2024-12-03T12:00:00Z"
+      "description": "A versatile microwave oven that makes meal preparation quick and easy with multiple cooking functions and sleek design.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/microwave-new/i/r/o/-original-imah6dzajzhbqfum.jpeg?q=70"
     },
     {
-      "id": "4",
-      "name": "Product 4",
-      "description": "Description of Product 4",
-      "price": 400.99,
-      "category": "Toys",
-      "createdAt": "2024-12-04T13:00:00Z"
-    },
-    {
-      "id": "5",
-      "name": "Product 5",
-      "description": "Description of Product 5",
-      "price": 500.99,
-      "category": "Books",
-      "createdAt": "2024-12-05T14:00:00Z"
-    },
-    {
-      "id": "6",
-      "name": "Product 6",
-      "description": "Description of Product 6",
-      "price": 600.99,
-      "category": "Sports",
-      "createdAt": "2024-12-06T15:00:00Z"
-    },
-    {
-      "id": "7",
-      "name": "Product 7",
-      "description": "Description of Product 7",
-      "price": 700.99,
-      "category": "Electronics",
-      "createdAt": "2024-12-07T16:00:00Z"
-    },
-    {
-      "id": "8",
-      "name": "Product 8",
-      "description": "Description of Product 8",
-      "price": 800.99,
+      "id": 4,
+      "name": "Men's T-shirt",
+      "price": "$19.99",
       "category": "Fashion",
-      "createdAt": "2024-12-08T17:00:00Z"
+      "description": "A comfortable and stylish men's t-shirt available in various sizes and colors, perfect for casual wear.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/c/q/a/5xl-68709201-puma-original-imah64swwzkqg42k.jpeg?q=70"
     },
     {
-      "id": "9",
-      "name": "Product 9",
-      "description": "Description of Product 9",
-      "price": 900.99,
+      "id": 5,
+      "name": "Washing Machine",
+      "price": "$450",
       "category": "Home Appliances",
-      "createdAt": "2024-12-09T18:00:00Z"
+      "description": "A highly efficient washing machine that cleans your clothes effectively while saving water and energy.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/washing-machine-new/s/d/3/-original-imah2d6gzs9tssfg.jpeg?q=70"
     },
     {
-      "id": "10",
-      "name": "Product 10",
-      "description": "Description of Product 10",
-      "price": 1000.99,
-      "category": "Toys",
-      "createdAt": "2024-12-10T19:00:00Z"
-    },
-    {
-      "id": "11",
-      "name": "Product 11",
-      "description": "Description of Product 11",
-      "price": 1100.99,
-      "category": "Books",
-      "createdAt": "2024-12-11T20:00:00Z"
-    },
-    {
-      "id": "12",
-      "name": "Product 12",
-      "description": "Description of Product 12",
-      "price": 1200.99,
-      "category": "Sports",
-      "createdAt": "2024-12-12T21:00:00Z"
-    },
-    {
-      "id": "13",
-      "name": "Product 13",
-      "description": "Description of Product 13",
-      "price": 1300.99,
+      "id": 6,
+      "name": "Headphones",
+      "price": "$99",
       "category": "Electronics",
-      "createdAt": "2024-12-13T22:00:00Z"
+      "description": "Noise-cancelling headphones that provide crystal clear sound, comfortable padding, and a sleek design.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/e/a/f/-original-imagtc44nk4b3hfg.jpeg?q=70"
     },
     {
-      "id": "14",
-      "name": "Product 14",
-      "description": "Description of Product 14",
-      "price": 1400.99,
-      "category": "Fashion",
-      "createdAt": "2024-12-14T23:00:00Z"
+      "id": 7,
+      "name": "Bluetooth Speaker",
+      "price": "$59",
+      "category": "Electronics",
+      "description": "A portable Bluetooth speaker that delivers high-quality sound in a compact, wireless design.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/s/g/e/-original-imahy4y8heh2dbbr.jpeg?q=70"
     },
     {
-      "id": "15",
-      "name": "Product 15",
-      "description": "Description of Product 15",
-      "price": 1500.99,
+      "id": 8,
+      "name": "Smartwatch",
+      "price": "$199",
+      "category": "Electronics",
+      "description": "A stylish smartwatch that tracks your fitness, notifications, and more with a long battery life.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/t/g/h/40-i8-pro-max-69-smart-watch-android-ios-melbon-yes-original-imah2sn5hrwt55x4.jpeg?q=70"
+    },
+    {
+      "id": 9,
+      "name": "Gaming Mouse",
+      "price": "$49",
+      "category": "Electronics",
+      "description": "An ergonomic gaming mouse designed for precision and comfort during long gaming sessions.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mousepad/9/e/q/ultra-low-friction-gaming-mouse-mat-anti-slip-base-high-original-imagz3wftgjtygyj.jpeg?q=70"
+    },
+    {
+      "id": 10,
+      "name": "Coffee Maker",
+      "price": "$89",
       "category": "Home Appliances",
-      "createdAt": "2024-12-15T10:00:00Z"
+      "description": "An easy-to-use coffee maker with customizable brewing settings for the perfect cup of coffee every time.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-maker/e/p/7/classic-2lane-3litre-hot-tank-capacity-with-tea-and-coffee-original-imah3g4436a4hvzg.jpeg?q=70"
     },
     {
-      "id": "16",
-      "name": "Product 16",
-      "description": "Description of Product 16",
-      "price": 1600.99,
-      "category": "Toys",
-      "createdAt": "2024-12-16T11:00:00Z"
-    },
-    {
-      "id": "17",
-      "name": "Product 17",
-      "description": "Description of Product 17",
-      "price": 1700.99,
-      "category": "Books",
-      "createdAt": "2024-12-17T12:00:00Z"
-    },
-    {
-      "id": "18",
-      "name": "Product 18",
-      "description": "Description of Product 18",
-      "price": 1800.99,
-      "category": "Sports",
-      "createdAt": "2024-12-18T13:00:00Z"
-    },
-    {
-      "id": "19",
-      "name": "Product 19",
-      "description": "Description of Product 19",
-      "price": 1900.99,
+      "id": 11,
+      "name": "Portable Charger",
+      "price": "$29",
       "category": "Electronics",
-      "createdAt": "2024-12-19T14:00:00Z"
+      "description": "A compact portable charger that ensures your devices stay powered on the go.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/power-bank/z/l/5/-original-imahf3pe6ngugsh9.jpeg?q=70"
     },
     {
-      "id": "20",
-      "name": "Product 20",
-      "description": "Description of Product 20",
-      "price": 2000.99,
-      "category": "Fashion",
-      "createdAt": "2024-12-20T15:00:00Z"
-    },
-    {
-      "id": "21",
-      "name": "Product 21",
-      "description": "Description of Product 21",
-      "price": 2100.99,
+      "id": 12,
+      "name": "Electric Kettle",
+      "price": "$39",
       "category": "Home Appliances",
-      "createdAt": "2024-12-21T16:00:00Z"
+      "description": "A fast-boiling electric kettle with an automatic shut-off feature for safe and efficient use.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/m/i/a/-original-imah6g5zfnqqfaqm.jpeg?q=70"
     },
     {
-      "id": "22",
-      "name": "Product 22",
-      "description": "Description of Product 22",
-      "price": 2200.99,
-      "category": "Toys",
-      "createdAt": "2024-12-22T17:00:00Z"
-    },
-    {
-      "id": "23",
-      "name": "Product 23",
-      "description": "Description of Product 23",
-      "price": 2300.99,
-      "category": "Books",
-      "createdAt": "2024-12-23T18:00:00Z"
-    },
-    {
-      "id": "24",
-      "name": "Product 24",
-      "description": "Description of Product 24",
-      "price": 2400.99,
-      "category": "Sports",
-      "createdAt": "2024-12-24T19:00:00Z"
-    },
-    {
-      "id": "25",
-      "name": "Product 25",
-      "description": "Description of Product 25",
-      "price": 2500.99,
-      "category": "Electronics",
-      "createdAt": "2024-12-25T20:00:00Z"
-    },
-    {
-      "id": "26",
-      "name": "Product 26",
-      "description": "Description of Product 26",
-      "price": 2600.99,
-      "category": "Fashion",
-      "createdAt": "2024-12-26T21:00:00Z"
-    },
-    {
-      "id": "27",
-      "name": "Product 27",
-      "description": "Description of Product 27",
-      "price": 2700.99,
+      "id": 13,
+      "name": "Vacuum Cleaner",
+      "price": "$120",
       "category": "Home Appliances",
-      "createdAt": "2024-12-27T22:00:00Z"
+      "description": "A powerful vacuum cleaner that picks up dirt and debris from all surfaces, perfect for home use.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/x/x/7/homeasy-wd10-inalsa-original-imahfzghgfkkvs3a.jpeg?q=70"
     },
     {
-      "id": "28",
-      "name": "Product 28",
-      "description": "Description of Product 28",
-      "price": 2800.99,
-      "category": "Toys",
-      "createdAt": "2024-12-28T23:00:00Z"
-    },
-    {
-      "id": "29",
-      "name": "Product 29",
-      "description": "Description of Product 29",
-      "price": 2900.99,
-      "category": "Books",
-      "createdAt": "2024-12-29T10:00:00Z"
-    },
-    {
-      "id": "30",
-      "name": "Product 30",
-      "description": "Description of Product 30",
-      "price": 3000.99,
-      "category": "Sports",
-      "createdAt": "2024-12-30T11:00:00Z"
-    },
-    {
-      "id": "31",
-      "name": "Product 31",
-      "description": "Description of Product 31",
-      "price": 3100.99,
+      "id": 14,
+      "name": "Smart TV",
+      "price": "$899",
       "category": "Electronics",
-      "createdAt": "2025-01-01T12:00:00Z"
+      "description": "A smart TV with high-definition resolution, built-in streaming services, and a sleek modern design.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/i/a/s/-original-imah2uzafqztmtcm.jpeg?q=70"
     },
     {
-      "id": "32",
-      "name": "Product 32",
-      "description": "Description of Product 32",
-      "price": 3200.99,
-      "category": "Fashion",
-      "createdAt": "2025-01-02T13:00:00Z"
-    },
-    {
-      "id": "33",
-      "name": "Product 33",
-      "description": "Description of Product 33",
-      "price": 3300.99,
+      "id": 15,
+      "name": "Refrigerator",
+      "price": "$599",
       "category": "Home Appliances",
-      "createdAt": "2025-01-03T14:00:00Z"
+      "description": "A spacious refrigerator with energy-saving features, ideal for keeping food fresh for longer.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/0/g/c/-original-imagpw45rfzvyrqq.jpeg?q=70"
     },
     {
-      "id": "34",
-      "name": "Product 34",
-      "description": "Description of Product 34",
-      "price": 3400.99,
-      "category": "Toys",
-      "createdAt": "2025-01-04T15:00:00Z"
-    },
-    {
-      "id": "35",
-      "name": "Product 35",
-      "description": "Description of Product 35",
-      "price": 3500.99,
-      "category": "Books",
-      "createdAt": "2025-01-05T16:00:00Z"
-    },
-    {
-      "id": "36",
-      "name": "Product 36",
-      "description": "Description of Product 36",
-      "price": 3600.99,
-      "category": "Sports",
-      "createdAt": "2025-01-06T17:00:00Z"
-    },
-    {
-      "id": "37",
-      "name": "Product 37",
-      "description": "Description of Product 37",
-      "price": 3700.99,
-      "category": "Electronics",
-      "createdAt": "2025-01-07T18:00:00Z"
-    },
-    {
-      "id": "38",
-      "name": "Product 38",
-      "description": "Description of Product 38",
-      "price": 3800.99,
-      "category": "Fashion",
-      "createdAt": "2025-01-08T19:00:00Z"
-    },
-    {
-      "id": "39",
-      "name": "Product 39",
-      "description": "Description of Product 39",
-      "price": 3900.99,
+      "id": 16,
+      "name": "Food Processor",
+      "price": "$79",
       "category": "Home Appliances",
-      "createdAt": "2025-01-09T20:00:00Z"
+      "description": "A versatile food processor that makes chopping, slicing, and mixing ingredients easy.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/food-processor/p/d/7/gt-4t-400-watts-oil-maker-machine-with-temperature-controller-original-imah3zpbcftaggts.jpeg?q=70"
     },
     {
-      "id": "40",
-      "name": "Product 40",
-      "description": "Description of Product 40",
-      "price": 4000.99,
-      "category": "Toys",
-      "createdAt": "2025-01-10T21:00:00Z"
+      "id": 17,
+      "name": "Electric Toothbrush",
+      "price": "$29",
+      "category": "Health & Beauty",
+      "description": "An electric toothbrush that ensures a deeper clean with advanced bristle technology and multiple settings.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-toothbrush/i/t/c/sonic-cosmic-lite-agaro-original-imah6xnu5aug9syn.jpeg?q=70"
     },
     {
-      "id": "41",
-      "name": "Product 41",
-      "description": "Description of Product 41",
-      "price": 4100.99,
-      "category": "Books",
-      "createdAt": "2025-01-11T22:00:00Z"
+      "id": 18,
+      "name": "Hair Dryer",
+      "price": "$39",
+      "category": "Health & Beauty",
+      "description": "A powerful hair dryer that dries hair quickly and efficiently with adjustable heat and speed settings.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/hair-dryer/s/d/s/-original-imah5rhrbcg3rx7g.jpeg?q=70"
     },
     {
-      "id": "42",
-      "name": "Product 42",
-      "description": "Description of Product 42",
-      "price": 4200.99,
-      "category": "Sports",
-      "createdAt": "2025-01-12T23:00:00Z"
+      "id": 19,
+      "name": "Face Cream",
+      "price": "$25",
+      "category": "Health & Beauty",
+      "description": "A nourishing face cream that hydrates and protects your skin, suitable for daily use.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/moisturizer-cream/n/k/f/-original-imahycxywhh43phj.jpeg?q=70"
     },
     {
-      "id": "43",
-      "name": "Product 43",
-      "description": "Description of Product 43",
-      "price": 4300.99,
+      "id": 20,
+      "name": "Sunscreen",
+      "price": "$15",
+      "category": "Health & Beauty",
+      "description": "A broad-spectrum sunscreen that protects your skin from harmful UV rays, available in different SPF levels.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/sunscreen/q/x/l/50-vitamin-c-e-super-bright-waterlight-for-even-toned-glowing-original-imah46zk74wmfgsj.jpeg?q=70"
+    },
+    {
+      "id": 21,
+      "name": "Hair Straightener",
+      "price": "$59",
+      "category": "Health & Beauty",
+      "description": "A high-performance hair straightener with adjustable temperature settings for smooth and sleek results.",
+      "image": "https://www.pexels.com/photo/flat-iron-with-pink-handle-3025953/"
+    },
+    {
+      "id": 22,
+      "name": "Perfume",
+      "price": "$49",
+      "category": "Health & Beauty",
+      "description": "A luxurious fragrance that keeps you feeling fresh all day, available in multiple scents.",
+      "image": "https://www.pexels.com/photo/perfume-bottle-on-glass-surface-2347876/"
+    },
+    {
+      "id": 23,
+      "name": "Tablet",
+      "price": "$299",
       "category": "Electronics",
-      "createdAt": "2025-01-13T10:00:00Z"
+      "description": "A lightweight tablet with a high-resolution display, ideal for streaming, gaming, and productivity.",
+      "image": "https://www.pexels.com/photo/person-holding-white-ipad-3207763/"
     },
     {
-      "id": "44",
-      "name": "Product 44",
-      "description": "Description of Product 44",
-      "price": 4400.99,
-      "category": "Fashion",
-      "createdAt": "2025-01-14T11:00:00Z"
-    },
-    {
-      "id": "45",
-      "name": "Product 45",
-      "description": "Description of Product 45",
-      "price": 4500.99,
+      "id": 24,
+      "name": "Blender",
+      "price": "$59",
       "category": "Home Appliances",
-      "createdAt": "2025-01-15T12:00:00Z"
+      "description": "A powerful blender that makes smoothies, soups, and sauces with ease.",
+      "image": "https://www.pexels.com/photo/black-blender-1937906/"
     },
     {
-      "id": "46",
-      "name": "Product 46",
-      "description": "Description of Product 46",
-      "price": 4600.99,
-      "category": "Toys",
-      "createdAt": "2025-01-16T13:00:00Z"
+      "id": 25,
+      "name": "Juicer",
+      "price": "$69",
+      "category": "Home Appliances",
+      "description": "A fast and efficient juicer that extracts fresh juice from fruits and vegetables.",
+      "image": "https://www.pexels.com/photo/black-juicer-on-white-table-4167171/"
     },
     {
-      "id": "47",
-      "name": "Product 47",
-      "description": "Description of Product 47",
-      "price": 4700.99,
-      "category": "Books",
-      "createdAt": "2025-01-17T14:00:00Z"
-    },
-    {
-      "id": "48",
-      "name": "Product 48",
-      "description": "Description of Product 48",
-      "price": 4800.99,
-      "category": "Sports",
-      "createdAt": "2025-01-18T15:00:00Z"
-    },
-    {
-      "id": "49",
-      "name": "Product 49",
-      "description": "Description of Product 49",
-      "price": 4900.99,
+      "id": 26,
+      "name": "Smart Speaker",
+      "price": "$79",
       "category": "Electronics",
-      "createdAt": "2025-01-19T16:00:00Z"
+      "description": "A smart speaker that allows you to control your home with voice commands and enjoy high-quality sound.",
+      "image": "https://www.pexels.com/photo/black-smart-speaker-on-table-2760243/"
     },
     {
-      "id": "50",
-      "name": "Product 50",
-      "description": "Description of Product 50",
-      "price": 5000.99,
+      "id": 27,
+      "name": "Electric Grill",
+      "price": "$99",
+      "category": "Home Appliances",
+      "description": "An electric grill that gives you the smoky flavor of grilling with the convenience of indoor cooking.",
+      "image": "https://www.pexels.com/photo/electric-grill-on-kitchen-table-4676223/"
+    },
+    {
+      "id": 28,
+      "name": "Shower Head",
+      "price": "$39",
+      "category": "Home Appliances",
+      "description": "A high-pressure shower head that provides a relaxing and invigorating shower experience.",
+      "image": "https://www.pexels.com/photo/silver-shower-head-on-white-wall-3293483/"
+    },
+    {
+      "id": 29,
+      "name": "Desk Lamp",
+      "price": "$25",
+      "category": "Home Appliances",
+      "description": "A sleek and modern desk lamp with adjustable brightness and a stylish design.",
+      "image": "https://www.pexels.com/photo/photo-of-desk-lamp-5863072/"
+    },
+    {
+      "id": 30,
+      "name": "Air Purifier",
+      "price": "$149",
+      "category": "Home Appliances",
+      "description": "An air purifier that cleans the air of allergens and pollutants, ensuring a healthier home environment.",
+      "image": "https://www.pexels.com/photo/white-air-purifier-on-a-table-5660887/"
+    },
+    {
+      "id": 31,
+      "name": "Smart Light Bulb",
+      "price": "$19",
+      "category": "Home Appliances",
+      "description": "A smart light bulb that can be controlled remotely, allowing you to adjust brightness and color.",
+      "image": "https://www.pexels.com/photo/smart-light-bulb-on-black-surface-1562043/"
+    },
+    {
+      "id": 32,
+      "name": "Couch",
+      "price": "$499",
+      "category": "Furniture",
+      "description": "A comfortable couch with modern design, ideal for any living room.",
+      "image": "https://www.pexels.com/photo/gray-couch-in-living-room-280276/"
+    },
+    {
+      "id": 33,
+      "name": "Office Chair",
+      "price": "$129",
+      "category": "Furniture",
+      "description": "An ergonomic office chair that provides comfort and support during long working hours.",
+      "image": "https://www.pexels.com/photo/black-office-chair-on-white-carpet-2578717/"
+    },
+    {
+      "id": 34,
+      "name": "Bookshelf",
+      "price": "$179",
+      "category": "Furniture",
+      "description": "A stylish bookshelf made of high-quality wood, perfect for storing books and decor.",
+      "image": "https://www.pexels.com/photo/black-bookshelf-on-white-wall-3828635/"
+    },
+    {
+      "id": 35,
+      "name": "Dining Table",
+      "price": "$350",
+      "category": "Furniture",
+      "description": "A spacious dining table made from premium wood, perfect for family meals.",
+      "image": "https://www.pexels.com/photo/white-dining-table-with-chairs-1565402/"
+    },
+    {
+      "id": 36,
+      "name": "Kitchen Cabinet",
+      "price": "$249",
+      "category": "Furniture",
+      "description": "A modern kitchen cabinet that offers ample storage space for your kitchen essentials.",
+      "image": "https://www.pexels.com/photo/kitchen-cabinet-with-modern-design-3136760/"
+    },
+    {
+      "id": 37,
+      "name": "Rug",
+      "price": "$79",
+      "category": "Furniture",
+      "description": "A soft and stylish rug that adds warmth and color to your living room or bedroom.",
+      "image": "https://www.pexels.com/photo/gray-rug-on-wooden-floor-5077258/"
+    },
+    {
+      "id": 38,
+      "name": "Mattress",
+      "price": "$299",
+      "category": "Furniture",
+      "description": "A comfortable and supportive mattress that ensures a restful night's sleep.",
+      "image": "https://www.pexels.com/photo/photo-of-bed-in-bedroom-1487992/"
+    },
+    {
+      "id": 39,
+      "name": "Coffee Table",
+      "price": "$99",
+      "category": "Furniture",
+      "description": "A sleek coffee table with a modern design that adds functionality and style to your living room.",
+      "image": "https://www.pexels.com/photo/white-coffee-table-on-rug-1026394/"
+    },
+    {
+      "id": 40,
+      "name": "Wardrobe",
+      "price": "$499",
+      "category": "Furniture",
+      "description": "A spacious wardrobe with ample storage for your clothes and accessories.",
+      "image": "https://www.pexels.com/photo/white-wardrobe-in-room-3930100/"
+    },
+    {
+      "id": 41,
+      "name": "Fridge Organizer",
+      "price": "$15",
+      "category": "Home Accessories",
+      "description": "A set of fridge organizers that help you keep your fridge neat and tidy.",
+      "image": "https://www.pexels.com/photo/white-plastic-container-on-brown-wooden-table-6042152/"
+    },
+    {
+      "id": 42,
+      "name": "Backpack",
+      "price": "$49",
       "category": "Fashion",
-      "createdAt": "2025-01-20T17:00:00Z"
+      "description": "A durable backpack with multiple compartments, perfect for work, travel, or school.",
+      "image": "https://www.pexels.com/photo/black-backpack-on-gray-table-3465189/"
+    },
+    {
+      "id": 43,
+      "name": "Sneakers",
+      "price": "$69",
+      "category": "Fashion",
+      "description": "Comfortable and stylish sneakers designed for both athletic and casual wear.",
+      "image": "https://www.pexels.com/photo/white-and-black-sneakers-on-sand-624790/"
+    },
+    {
+      "id": 44,
+      "name": "Sunglasses",
+      "price": "$25",
+      "category": "Fashion",
+      "description": "Sleek and stylish sunglasses that protect your eyes while keeping you fashionable.",
+      "image": "https://www.pexels.com/photo/black-sunglasses-on-white-surface-2290839/"
+    },
+    {
+      "id": 45,
+      "name": "Hat",
+      "price": "$19",
+      "category": "Fashion",
+      "description": "A trendy hat that complements your outfit and provides sun protection.",
+      "image": "https://www.pexels.com/photo/black-cap-on-persons-head-2106503/"
+    },
+    {
+      "id": 46,
+      "name": "Scarf",
+      "price": "$15",
+      "category": "Fashion",
+      "description": "A soft and cozy scarf that adds warmth and style to any outfit.",
+      "image": "https://www.pexels.com/photo/gray-scarf-on-person-3573343/"
+    },
+    {
+      "id": 46,
+      "name": "Scarf",
+      "price": "$15",
+      "category": "Fashion",
+      "description": "A soft and cozy scarf that adds warmth and style to any outfit.",
+      "image": "https://www.pexels.com/photo/gray-scarf-on-person-3573343/"
+    },
+    {
+      "id": 47,
+      "name": "Bracelet",
+      "price": "$29",
+      "category": "Fashion",
+      "description": "A delicate bracelet that adds a touch of elegance to any outfit.",
+      "image": "https://www.pexels.com/photo/person-wearing-silver-bracelet-1190007/"
+    },
+    {
+      "id": 48,
+      "name": "Watch",
+      "price": "$89",
+      "category": "Fashion",
+      "description": "A stylish watch with a sleek design and precise timekeeping features.",
+      "image": "https://www.pexels.com/photo/black-leather-strap-watch-4642485/"
+    },
+    {
+      "id": 49,
+      "name": "Tote Bag",
+      "price": "$39",
+      "category": "Fashion",
+      "description": "A spacious and versatile tote bag, perfect for everyday use.",
+      "image": "https://www.pexels.com/photo/black-tote-bag-on-brown-wooden-table-1643185/"
+    },
+    {
+      "id": 50,
+      "name": "Wallet",
+      "price": "$19",
+      "category": "Fashion",
+      "description": "A slim wallet that keeps your cards and cash organized in a stylish manner.",
+      "image": "https://www.pexels.com/photo/close-up-photo-of-black-wallet-2293658/"
     }
   ]
 }

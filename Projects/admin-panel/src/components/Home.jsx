@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { data } from "react-router";
 
 const Home = () => {
   const [productData, setProductData] = useState([]);
@@ -25,44 +26,32 @@ const Home = () => {
       }}
     >
       <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-12">
-            <div className="card mask-custom">
-              <div className="card-body">
-                <div className="table-responsive">
-                  <table className="table table-borderless text-white mb-0">
-                    <thead>
-                      <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">NAME</th>
-                        <th scope="col">DESCRIPTION</th>
-                        <th scope="col">PRICE</th>
-                        <th scope="col">CATEGORY</th>
-                        <th scope="col">CREATED AT</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {productData.map((product) => {
-                        console.log(product);
-                        return (
-                          <tr key={product.id}>
-                            <td scope="row" className="fw-medium">
-                              {product.id}
-                            </td>
-                            <td className="fw-medium">{product.name}</td>
-                            <td className="fw-medium">{product.description}</td>
-                            <td className="fw-medium">{product.price}</td>
-                            <td className="fw-medium">{product.category}</td>
-                            <td className="fw-medium">{product.createdAt}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
+        <div className="row g-5">
+          {productData.map((product) => (
+            <div className="col-3">
+              <div className="card">
+                <img
+                  src={product.image}
+                  className="card-img-top p-3"
+                  alt={product.name}
+                  style={{ height: "220px", objectFit: "contain" }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{product.name}</h5>
+                  <p className="card-text">
+                    {product.description.slice(0,70)}
+                  </p>
+                  <a
+                    href="#!"
+                    className="btn btn-primary"
+                    data-mdb-ripple-init=""
+                  >
+                    {product.price}
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>

@@ -1,14 +1,18 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "../components/Login.module.css";
 import EmptyMessage from "./EmptyMessage";
 import { useNavigate } from "react-router";
 import LengthErrorMessage from "./LengthErrorMessage";
 import axios from "axios";
+import { Link } from "react-router";
 
 const Login = () => {
+  // debugger;
   const [loginData, setLoginData] = useState({ email: "", password: "" });
 
   let { email, password } = loginData;
+
+  const [users, setUsers] = useState([]);
 
   const [error, setError] = useState({ userEmail: false, userPassword: false });
 
@@ -18,33 +22,42 @@ const Login = () => {
 
   const navigate = useNavigate();
 
+  useEffect(() => {
+    // debugger;
+    axios("http://localhost:3000/users").then((response) => {
+      let { data } = response;
+      setUsers(data);
+    });
+  }, []);
+
   // function to handle login button //
 
   const handleLogin = () => {
-    debugger;
+    // debugger;
     if (email === "" || password === "") {
       setError({ userEmail: !email, userPassword: !password });
-    } else if (password.length < 4) {
+    } else if (password.length < 8) {
       setLengthMsg(true);
       setError({ userEmail: false, userPassword: false });
     } else {
-      let newUser = {
-        email,
-        password,
-      };
-      axios
-        .post(`http://localhost:3000/users`, newUser)
-        .then((response) => {
-          console.log(response);
-        })
-        .catch((error) => {
-          console.log(error);
-          alert("Something went wrong. Please try again!");
-        });
-      navigate("/home");
-      setError({ userEmail: false, userPassword: false });
-      setLoginData({ email: "", password: "" });
+      let isExists = users.find((user) => {
+        debugger;
+        return user.email === email.toLowerCase() && user.password === password;
+      });
+
+      if (isExists) {
+        if (isExists.role === "user") {
+          navigate("/home");
+          alert("Welcome back! User login successful.");
+        } else if (isExists.role === "admin") {
+          console.log("admin");
+        }
+      } else {
+        alert("Invalid email or password. Please try again.");
+        alert("Don't have an account? Sign up now!");
+      }
       setLengthMsg(false);
+      setLoginData({ email: "", password: "" });
     }
   };
 
@@ -117,6 +130,7 @@ const Login = () => {
                 </label>
                 <input
                   type="password"
+                  autoComplete=""
                   id="form3Example4"
                   className="form-control form-control-lg"
                   placeholder="Enter password"
@@ -129,7 +143,7 @@ const Login = () => {
                   <EmptyMessage message="please enter your Password!" />
                 )}
                 {lengthMsg && (
-                  <LengthErrorMessage message="minimum 4 characters must be Included!" />
+                  <LengthErrorMessage message="minimum 8 characters must be Included!" />
                 )}
               </div>
               <div className="d-flex justify-content-between align-items-center">
@@ -161,9 +175,7 @@ const Login = () => {
                 </button>
                 <p className="small fw-bold mt-2 pt-1 mb-0">
                   Don't have an account?
-                  <a href="#!" className="link-danger">
-                    Register
-                  </a>
+                  <Link to="/signup">Sign Up</Link>
                 </p>
               </div>
             </form>
