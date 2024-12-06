@@ -44,6 +44,12 @@ const App = () => {
         Use Effect
       </h1>
       <UseeffectCounter />
+
+      {/* usememo hook */}
+
+      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+        Use Memo
+      </h1> */}
     </div>
   );
 };
