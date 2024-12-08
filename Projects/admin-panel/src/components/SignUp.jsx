@@ -1,11 +1,16 @@
 import { FaUser, FaEnvelope, FaLock, FaKey } from "react-icons/fa";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import EmptyMessage from "./EmptyMessage";
 import LengthErrorMessage from "./LengthErrorMessage";
 import ConfirmPasswordMsg from "./ConfirmPasswordMsg";
 import axios from "axios";
+import { useNavigate } from "react-router";
+import { Modal } from "bootstrap/dist/js/bootstrap.bundle";
+import SpecialCharcterMsg from "./SpecialCharcterMsg";
 
 const SignUp = () => {
+  const [data, setData] = useState([]);
+
   const [signUpData, setSignUpData] = useState({
     name: "",
     email: "",
@@ -34,10 +39,37 @@ const SignUp = () => {
 
   const [confirmPasswordNotEqual, setConfirmPasswordNotEqual] = useState(false);
 
+  const [specialCharMsg, setSpecialCharMsg] = useState(false);
+
+  const [modalMessage, setModalMessage] = useState("");
+
+  const [modalInstance, setModalInstance] = useState(null);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    axios
+      .get(`http://localhost:3000/users`)
+      .then((response) => {
+        let { data } = response;
+        setData(data);
+      })
+      .catch((error) => {
+        alert("something went Wrong!");
+      });
+
+    const modalElement = document.getElementById("feedbackModal");
+    if (modalElement) {
+      setModalInstance(new Modal(modalElement));
+    }
+  }, []);
+
   const handleSignUp = () => {
+    let specialCharRegx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
     if (
-      name === "" ||
       email === "" ||
+      name === "" ||
       password === "" ||
       repeatPassword === ""
     ) {
@@ -47,6 +79,15 @@ const SignUp = () => {
         userPassword: !password,
         userRepeatPassword: !repeatPassword,
       });
+    } else if (!specialCharRegx.test(email)) {
+      setSpecialCharMsg(true);
+      setErrorMsg({
+        userName: false,
+        userEmail: false,
+        userPassword: false,
+        userRepeatPassword: false,
+      });
+      setLengthMsg({ password: false, repeatPassword: false });
     } else if (password.length < 8 || repeatPassword.length < 8) {
       setLengthMsg({
         password: password.length < 8,
@@ -58,27 +99,62 @@ const SignUp = () => {
         userPassword: false,
         userRepeatPassword: false,
       });
+      setSpecialCharMsg(false);
     } else if (password !== repeatPassword) {
       setConfirmPasswordNotEqual(true);
       setLengthMsg(false);
+      setSpecialCharMsg(false);
     } else {
-      setConfirmPasswordNotEqual(false);
-      let newUser = {
-        name,
-        email,
-        role: "user",
-        password,
-      };
-      axios
-        .post(`http://localhost:3000/users`, newUser)
-        .then((response) => {
-          console.log(response);
-          alert("Signup successful! Welcome aboard!");
-        })
-        .catch((error) => {
-          console.log("something went Wrong!", error);
+      let exitsEmail = data.find((user) => {
+        return user.email === email;
+      });
+
+      if (exitsEmail) {
+        setModalMessage(
+          "The email address you entered is already registered. Redirecting to login page..."
+        );
+        modalInstance.show();
+        setTimeout(() => {
+          modalInstance.hide();
+          navigate("/");
+        }, 3000);
+        return;
+      } else {
+        let newUser = {
+          name,
+          email,
+          role: "user",
+          password,
+        };
+        axios
+          .post(`http://localhost:3000/users`, newUser)
+          .then((response) => {
+            setModalMessage("Signup successful! Welcome aboard!");
+            modalInstance.show(); 
+            setTimeout(() => {
+              modalInstance.hide();
+              navigate("/");
+            }, 2000);
+          })
+          .catch((error) => {
+            setModalMessage("Something went wrong during signup!");
+            modalInstance.show();
+          });
+        setSignUpData({
+          name: "",
+          email: "",
+          password: "",
+          repeatPassword: "",
         });
-      setSignUpData({ name: "", email: "", password: "", repeatPassword: "" });
+        setSpecialCharMsg(false);
+        setErrorMsg({
+          userName: false,
+          userEmail: false,
+          userPassword: false,
+          userRepeatPassword: false,
+        });
+        setConfirmPasswordNotEqual(false);
+      }
     }
   };
 
@@ -150,6 +226,9 @@ const SignUp = () => {
                               })
                             }
                           />
+                          {specialCharMsg && (
+                            <SpecialCharcterMsg message="Please enter a valid email address!" />
+                          )}
                           {userEmail && (
                             <EmptyMessage message="Email field cannot be empty!" />
                           )}
@@ -185,7 +264,7 @@ const SignUp = () => {
                             <EmptyMessage message="Password field cannot be empty!" />
                           )}
                           {lengthPassword && (
-                            <LengthErrorMessage message="maximum 8 characters must be Include!" />
+                            <LengthErrorMessage message="Password must be at least 8 characters long!" />
                           )}
                         </div>
                       </div>
@@ -216,7 +295,7 @@ const SignUp = () => {
                             }
                           />
                           {userRepeatPassword && (
-                            <EmptyMessage message="Please confirm your password!" />
+                            <EmptyMessage message="Confirm password field cannot be empty!" />
                           )}
                           {lengthRepeatPassword && (
                             <LengthErrorMessage message="Password must be at least 8 characters long!" />
@@ -263,6 +342,39 @@ const SignUp = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal fade"
+        id="feedbackModal"
+        tabIndex="-1"
+        aria-labelledby="feedbackModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="feedbackModalLabel">
+                Notification
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body text-center">{modalMessage}</div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
             </div>
           </div>
         </div>

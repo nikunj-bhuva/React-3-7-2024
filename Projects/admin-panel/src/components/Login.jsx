@@ -5,6 +5,8 @@ import { useNavigate } from "react-router";
 import LengthErrorMessage from "./LengthErrorMessage";
 import axios from "axios";
 import { Link } from "react-router";
+import SpecialCharcterMsg from "./SpecialCharcterMsg";
+import { Modal } from "bootstrap";
 
 const Login = () => {
   // debugger;
@@ -20,42 +22,69 @@ const Login = () => {
 
   const [lengthMsg, setLengthMsg] = useState(false);
 
+  const [specialCharMsg, setSpecialCharMsg] = useState(false);
+
+  const [modalMessage, setModalMessage] = useState("");
+
+  const [modalInstance, setModalInstance] = useState(null);
+
   const navigate = useNavigate();
 
   useEffect(() => {
     // debugger;
-    axios("http://localhost:3000/users").then((response) => {
-      let { data } = response;
-      setUsers(data);
-    });
+    axios("http://localhost:3000/users")
+      .then((response) => {
+        let { data } = response;
+        setUsers(data);
+      })
+      .catch((error) => {
+        setModalMessage("Unable to fetch users. Please try again later.");
+        modalInstance.show();
+      });
+
+    const modalElement = document.getElementById("feedbackModal");
+    if (modalElement) {
+      setModalInstance(new Modal(modalElement));
+    }
   }, []);
 
   // function to handle login button //
 
   const handleLogin = () => {
     // debugger;
+    let specialCharRegx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
     if (email === "" || password === "") {
       setError({ userEmail: !email, userPassword: !password });
+    } else if (!specialCharRegx.test(email)) {
+      setSpecialCharMsg(true);
+      setError({ userEmail: false, userPassword: false });
+      setLengthMsg(false);
     } else if (password.length < 8) {
       setLengthMsg(true);
       setError({ userEmail: false, userPassword: false });
     } else {
       let isExists = users.find((user) => {
-        debugger;
         return user.email === email.toLowerCase() && user.password === password;
       });
 
       if (isExists) {
-        if (isExists.role === "user") {
-          navigate("/home");
-          alert("Welcome back! User login successful.");
-        } else if (isExists.role === "admin") {
-          console.log("admin");
-        }
+        const message =
+          isExists.role === "admin"
+            ? "Welcome back! Admin login successful."
+            : "Welcome back! User login successful.";
+        setModalMessage(message);
+        modalInstance.show();
+
+        setTimeout(() => {
+          modalInstance.hide();
+          navigate(isExists.role === "admin" ? "/admindashboard" : "/home");
+        }, 3000);
       } else {
-        alert("Invalid email or password. Please try again.");
-        alert("Don't have an account? Sign up now!");
+        setModalMessage("Invalid email or password. Please try again.");
+        modalInstance.show();
       }
+      setSpecialCharMsg(false);
       setLengthMsg(false);
       setLoginData({ email: "", password: "" });
     }
@@ -123,6 +152,9 @@ const Login = () => {
                 {userEmail && (
                   <EmptyMessage message="please enter your Email!" />
                 )}
+                {specialCharMsg && (
+                  <SpecialCharcterMsg message="Please enter a valid email address!" />
+                )}
               </div>
               <div data-mdb-input-init="" className="form-outline mb-3">
                 <label className="form-label fw-medium" htmlFor="form3Example4">
@@ -179,6 +211,39 @@ const Login = () => {
                 </p>
               </div>
             </form>
+          </div>
+        </div>
+      </div>
+      <div
+        className="modal fade"
+        id="feedbackModal"
+        tabIndex="-1"
+        aria-labelledby="feedbackModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="feedbackModalLabel">
+                Notification
+              </h5>
+              <button
+                type="button"
+                className="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div className="modal-body text-center">{modalMessage}</div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       </div>
