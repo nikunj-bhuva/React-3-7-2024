@@ -1,34 +1,76 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-const SideBar = () => {
+const SideBar = ({ className }) => {
   return (
     <div
-      className="bg-dark text-white p-3"
-      style={{ width: "250px", minHeight: "100vh" }}
+      className={`sidebar d-flex flex-column p-3 ${className}`}
+      style={{
+        width: "250px",
+        backgroundColor: "#1a202c",
+        color: "white",
+        overflowY: "auto", // Allows scrolling only if necessary
+      }}
     >
-      <h3 className="text-center">Admin Panel</h3>
-      <ul className="nav flex-column mt-4">
-        <li className="nav-item mb-2">
-          <a href="#!" className="nav-link text-white">
-            <i className="bi bi-person-circle me-2"></i> User Management
-          </a>
-        </li>
-        <li className="nav-item mb-2">
-          <a href="#!" className="nav-link text-white">
-            <i className="bi bi-box-seam me-2"></i> Product Management
-          </a>
-        </li>
-        <li className="nav-item mb-2">
-          <a href="#!" className="nav-link text-white">
-            <i className="bi bi-graph-up me-2"></i> Reports
-          </a>
-        </li>
-        <li className="nav-item">
-          <a href="#!" className="nav-link text-white">
-            <i className="bi bi-box-arrow-right me-2"></i> Logout
-          </a>
-        </li>
-      </ul>
+      <h4 className="text-center mb-4" style={{ color: "#cbd5e0" }}>
+        Admin Panel
+      </h4>
+      <NavLink
+        to="/admindashboard"
+        className="sidebar-item mb-3"
+        style={({ isActive }) => ({
+          textDecoration: "none",
+          padding: "10px",
+          borderRadius: "5px",
+          color: isActive ? "#fff" : "#cbd5e0",
+          backgroundColor: isActive ? "#4a5568" : "transparent",
+          fontSize: "1rem",
+        })}
+      >
+        Admin Home
+      </NavLink>
+      <NavLink
+        to="/admindashboard/user"
+        className="sidebar-item mb-3"
+        style={({ isActive }) => ({
+          textDecoration: "none",
+          padding: "10px",
+          borderRadius: "5px",
+          color: isActive ? "#fff" : "#cbd5e0",
+          backgroundColor: isActive ? "#4a5568" : "transparent",
+          fontSize: "1rem",
+        })}
+      >
+        User Management
+      </NavLink>
+      <NavLink
+        to="/admindashboard/product"
+        className="sidebar-item mb-3"
+        style={({ isActive }) => ({
+          textDecoration: "none",
+          padding: "10px",
+          borderRadius: "5px",
+          color: isActive ? "#fff" : "#cbd5e0",
+          backgroundColor: isActive ? "#4a5568" : "transparent",
+          fontSize: "1rem",
+        })}
+      >
+        Product Management
+      </NavLink>
+      <NavLink
+        to="/admindashboard/addproduct"
+        className="sidebar-item"
+        style={({ isActive }) => ({
+          textDecoration: "none",
+          padding: "10px",
+          borderRadius: "5px",
+          color: isActive ? "#fff" : "#cbd5e0",
+          backgroundColor: isActive ? "#4a5568" : "transparent",
+          fontSize: "1rem",
+        })}
+      >
+        Add Product
+      </NavLink>
     </div>
   );
 };

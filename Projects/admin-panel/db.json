@@ -1,13 +1,6 @@
 {
   "users": [
     {
-      "id": "2",
-      "name": "Justin Ellis",
-      "email": "johnrodriguez@gmail.com",
-      "role": "user",
-      "password": "#PI5KYHa"
-    },
-    {
       "id": "3",
       "name": "Brandon Evans",
       "email": "karenbradford@hernandez.info",
@@ -16,9 +9,9 @@
     },
     {
       "id": "4",
-      "name": "Sarah Smith",
-      "email": "saundersjessica@sampson-garcia.biz",
-      "role": "user",
+      "name": "chetan",
+      "email": "chetan34@gmail.com",
+      "role": "admin",
       "password": "%887JmkI"
     },
     {
@@ -37,9 +30,9 @@
     },
     {
       "id": "7",
-      "name": "George Young",
-      "email": "austin15@yahoo.com",
-      "role": "user",
+      "name": "madhav",
+      "email": "madhav34@gmail.com",
+      "role": "admin",
       "password": "a!5tAjwL"
     },
     {
@@ -339,8 +332,8 @@
     {
       "id": "934d",
       "name": "nikunj",
-      "email": "nb@gmail.com",
-      "role": "user",
+      "email": "nb1111@gmail.com",
+      "role": "admin",
       "password": "12345678"
     },
     {
@@ -363,13 +356,6 @@
       "email": "ishit@gmail.com",
       "role": "user",
       "password": "88888888"
-    },
-    {
-      "id": "f16e",
-      "name": "nisarg",
-      "email": "nisarg121@gmail.com",
-      "role": "user",
-      "password": "23232323"
     },
     {
       "id": "f4ca",
@@ -406,11 +392,11 @@
     },
     {
       "id": "4",
-      "name": "Men's T-shirt",
-      "price": "$19.99",
-      "category": "Fashion",
-      "description": "A comfortable and stylish men's t-shirt available in various sizes and colors, perfect for casual wear.",
-      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/c/q/a/5xl-68709201-puma-original-imah64swwzkqg42k.jpeg?q=70"
+      "name": "T-Shirt",
+      "price": "1199",
+      "category": "Clothes",
+      "description": "Men Graphic Print Round Neck Cotton Blend Black T-Shirt",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/5/s/m/s-mlm-arn-blackts-26-panda-tshirt-benny-brooks-original-imahffzz8wsdzfcj.jpeg?q=70"
     },
     {
       "id": "5",
@@ -558,11 +544,11 @@
     },
     {
       "id": "23",
-      "name": "Tablet",
-      "price": "$299",
+      "name": "Macbook Air M3",
+      "price": "107990",
       "category": "Electronics",
-      "description": "A lightweight tablet with a high-resolution display, ideal for streaming, gaming, and productivity.",
-      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/t/g/x/-original-imah4ycjbbebrunc.jpeg?q=70"
+      "description": "Apple MacBook Air Apple M3 - (8 GB/256 GB SSD/macOS Sonoma) MRXT3HN/A  (13 Inch, Starlight, 1.24 Kg)\n",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/a/q/h/-original-imagypv6prbgkfzg.jpeg?q=70"
     },
     {
       "id": "24",
@@ -693,14 +679,6 @@
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/coffee-table/y/a/s/91-rosewood-sheesham-91-46-100000195-wooden-street-36-walnut-original-imah6zpygk8t4ufd.jpeg?q=70"
     },
     {
-      "id": "40",
-      "name": "Wardrobe",
-      "price": "$499",
-      "category": "Furniture",
-      "description": "A spacious wardrobe with ample storage for your clothes and accessories.",
-      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/wardrobe-closet/r/h/8/yes-45-112-4-particle-board-75-fimassf3dwwmubwnt-brown-nilkamal-original-imah6rvv3dxqcepf.jpeg?q=70"
-    },
-    {
       "id": "41",
       "name": "Fridge Organizer",
       "price": "$15",
@@ -749,14 +727,6 @@
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/scarf/k/y/a/free-radhe-radhe-red-scarf-desttronne-original-imah2g38vxztbwcr.jpeg?q=70"
     },
     {
-      "id": "47",
-      "name": "Scarf",
-      "price": "$15",
-      "category": "Fashion",
-      "description": "A soft and cozy scarf that adds warmth and style to any outfit.",
-      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/scarf/g/d/i/free-size-rn00903-riddleneedle-original-imah44ahebdewb58.jpeg?q=70"
-    },
-    {
       "id": "48",
       "name": "Bracelet",
       "price": "$29",
@@ -787,6 +757,22 @@
       "category": "Fashion",
       "description": "A slim wallet that keeps your cards and cash organized in a stylish manner.",
       "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/wallet-card-wallet/e/q/m/wl-04-fz-1-4-fz-wl04-9-wallet-lorem-3-5-original-imah4ggpeacehdwh.jpeg?q=70"
+    },
+    {
+      "id": "0da5",
+      "name": "Colgate Visible White O2",
+      "price": "192",
+      "category": "Grocery",
+      "description": "Colgate Visible White O2 for noticeably whiter teeth starting in 3 days Whitening Toothpaste  (50 g)",
+      "image": "https://rukminim2.flixcart.com/image/280/280/xif0q/toothpaste/q/w/8/-original-imah6nzzkapzs3nu.jpeg?q=70"
+    },
+    {
+      "id": "5b56",
+      "name": "OLA S1 X",
+      "price": "69999",
+      "category": "vechicle",
+      "description": "The base warranty covers the battery and vehicle components for 3 years or 40,000 kms (additional 10,000 kms for battery), whichever is earlier from the date of delivery. We offer a range of top-up warranty options for the following scooters: S1 Pro, S1 Air, and S1 X (3kWh, 4kWh). ",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/electric-bike-scooter/e/a/c/2024-with-charger-s1-x-drum-booking-for-ex-showroom-price-pan-original-imah29a9g5fpf4gw.jpeg?q=70"
     }
   ]
 }

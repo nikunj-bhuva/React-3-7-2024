@@ -51,7 +51,7 @@ const Login = () => {
   // function to handle login button //
 
   const handleLogin = () => {
-    // debugger;
+   
     let specialCharRegx = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     if (email === "" || password === "") {
