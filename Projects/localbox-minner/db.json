@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe1@example.com",
+      "password": "abc12345"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith2@example.com",
+      "password": "xyz23456"
+    },
+    {
+      "id": "3",
+      "name": "Michael Johnson",
+      "email": "michael.johnson3@example.com",
+      "password": "qwerty78"
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "email": "emily.davis4@example.com",
+      "password": "zxcvbn90"
+    },
+    {
+      "id": "5",
+      "name": "David Martinez",
+      "email": "david.martinez5@example.com",
+      "password": "asd123fg"
+    },
+    {
+      "id": "6",
+      "name": "Sarah Lee",
+      "email": "sarah.lee6@example.com",
+      "password": "rtv123gh"
+    },
+    {
+      "id": "7",
+      "name": "James Williams",
+      "email": "james.williams7@example.com",
+      "password": "uiop5678"
+    },
+    {
+      "id": "8",
+      "name": "Olivia Brown",
+      "email": "olivia.brown8@example.com",
+      "password": "qwertz098"
+    },
+    {
+      "id": "9",
+      "name": "Ethan Wilson",
+      "email": "ethan.wilson9@example.com",
+      "password": "tyui1234"
+    },
+    {
+      "id": "10",
+      "name": "Ava Garcia",
+      "email": "ava.garcia10@example.com",
+      "password": "vbnm4321"
+    },
+    {
+      "id": "11",
+      "name": "Liam Anderson",
+      "email": "liam.anderson11@example.com",
+      "password": "bvcx6789"
+    },
+    {
+      "id": "12",
+      "name": "Mia Thomas",
+      "email": "mia.thomas12@example.com",
+      "password": "nmas2345"
+    },
+    {
+      "id": "13",
+      "name": "Noah Moore",
+      "email": "noah.moore13@example.com",
+      "password": "fghj3456"
+    },
+    {
+      "id": "14",
+      "name": "Isabella Taylor",
+      "email": "isabella.taylor14@example.com",
+      "password": "hjkl8765"
+    },
+    {
+      "id": "15",
+      "name": "Lucas Clark",
+      "email": "lucas.clark15@example.com",
+      "password": "dfgh5678"
+    },
+    {
+      "id": "16",
+      "name": "Sophia Walker",
+      "email": "sophia.walker16@example.com",
+      "password": "ytrewq23"
+    },
+    {
+      "id": "17",
+      "name": "Benjamin Harris",
+      "email": "benjamin.harris17@example.com",
+      "password": "tgbvbn90"
+    },
+    {
+      "id": "18",
+      "name": "Charlotte Lewis",
+      "email": "charlotte.lewis18@example.com",
+      "password": "mnbv6543"
+    },
+    {
+      "id": "19",
+      "name": "Amelia Robinson",
+      "email": "amelia.robinson19@example.com",
+      "password": "plm98765"
+    },
+    {
+      "id": "20",
+      "name": "Alexander Young",
+      "email": "alexander.young20@example.com",
+      "password": "lkjh1234"
+    },
+    {
+      "id": "9e96",
+      "name": "nikunj",
+      "email": "nb77@gmail.com",
+      "password": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Earbuds",
+      "price": 2999,
+      "description": "High-quality wireless earbuds with noise cancellation.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/a/y/o/m19-crystalclear-earbuds-hdaudio-bluetooth-headset-with-long-original-imahfmashya8suxy.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Smartphone",
+      "price": 15999,
+      "description": "Latest smartphone with a powerful processor and camera.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "3",
+      "name": "Laptop",
+      "price": 45999,
+      "description": "Lightweight laptop with 16GB RAM and 512GB SSD.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/6/g/-original-imagy3tzbj3xgvu4.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "4",
+      "name": "Gaming Mouse",
+      "price": 1499,
+      "description": "Ergonomic gaming mouse with RGB lighting.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/mouse/p/y/w/-original-imah7yzmsusqvdph.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "5",
+      "name": "Mechanical Keyboard",
+      "price": 3499,
+      "description": "Mechanical keyboard with customizable keys.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/keyboard/gaming-keyboard/n/t/c/gk400y-mechanical-hp-original-imah5y39b3sbxhme.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "6",
+      "name": "Bluetooth Speaker",
+      "price": 1999,
+      "description": "Portable Bluetooth speaker with deep bass.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/party-speaker/x/c/b/powerfull-24w-bluetooth-karaoke-speaker-with-wired-mic-perfect-original-imah6xedghnpjqnh.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "7",
+      "name": "Fitness Band",
+      "price": 2499,
+      "description": "Track your fitness goals with ease.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/l2urv680/smartwatch/2/y/e/1-33-vi244-id116-digital-multi-sports-mode-step-count-smart-original-image3wwfdjghbzf.jpeg?q=70",
+      "category": "Wearables"
+    },
+    {
+      "id": "8",
+      "name": "Smart Watch",
+      "price": 5499,
+      "description": "Stylish smartwatch with multiple sports modes.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/0/h/1/39-i8-pink-a1-69-android-ios-gamesir-yes-original-imahfgyvbehkyhv3.jpeg?q=70",
+      "category": "Wearables"
+    },
+    {
+      "id": "9",
+      "name": "Action Camera",
+      "price": 8999,
+      "description": "Capture high-definition action videos.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kuyf8nk0/sports-action-camera/p/e/z/black-waterproof-action-camera-with-front-lcd-and-touch-rear-original-imag7yg4haansvzn.jpeg?q=70",
+      "category": "Cameras"
+    },
+    {
+      "id": "10",
+      "name": "Tripod Stand",
+      "price": 999,
+      "description": "Sturdy tripod stand for photography.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/l30hmkw0/tripod/tripod-kit/k/z/i/strong-metal-black-tripod-stand-with-ring-light-for-phography-original-image8cp3ggg5phm.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "11",
+      "name": "External Hard Drive",
+      "price": 5999,
+      "description": "2TB external hard drive for extra storage.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kpvivm80/external-hard-drive/hdd/m/g/z/expansion-portable-stkm5000400-seagate-original-imag4ym3var4qhhp.jpeg?q=70",
+      "category": "Storage"
+    },
+    {
+      "id": "12",
+      "name": "Graphic Tablet",
+      "price": 7999,
+      "description": "Graphic tablet for digital artists.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/ktlu9ow0/graphics-tablet/i/b/y/ruffpad-8-5m-medium-1024-no-por-1398-portronics-original-imag6wr9kx5c7fka.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "13",
+      "name": "Gaming Headset",
+      "price": 2999,
+      "description": "https://rukminim2.flixcart.com/image/612/612/krxtrww0/headphone/q/a/4/zeb-thunder-zebronics-original-imag5mm649yb655j.jpeg?q=70",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/i/e/c/ranger-hx300-bluetooth-gaming-headphones-with-50ms-low-latency-original-imagjs4zfdhzzrgj.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "14",
+      "name": "LED Monitor",
+      "price": 12999,
+      "description": "24-inch full HD LED monitor.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/h/c/0/mon-0071-hd-19-2023-mon-0071-frontech-original-imahyrrrptfsfgek.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "15",
+      "name": "Tablet",
+      "price": 19999,
+      "description": "Sleek tablet with a 10-inch screen.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/tablet/v/w/t/-original-imagu2mdexmnb7bw.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "16",
+      "name": "Power Bank",
+      "price": 1499,
+      "description": "10000mAh portable power bank.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/power-bank/w/u/f/-original-imah4rytqf7ustbq.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "17",
+      "name": "Wireless Charger",
+      "price": 1299,
+      "description": "Fast wireless charger for smartphones.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/b/8/k/34-unfilter-magnetic-suction-charger-for-2-pin-noise-colorfit-original-imah3fmdm8fmyfn6.jpeg?q=70",
+      "category": "Accessories"
+    },
+    {
+      "id": "18",
+      "name": "Gaming Console",
+      "price": 29999,
+      "description": "Latest gaming console with immersive features.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/gamingconsole/a/x/n/0-g5-500-in-1-colorful-handheld-mini-retro-game-box-also-connect-original-imagrqxznqngeydt.jpeg?q=70",
+      "category": "Gaming"
+    },
+    {
+      "id": "19",
+      "name": "DSLR Camera",
+      "price": 39999,
+      "description": "Professional DSLR camera with multiple lenses.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/kk01pjk0/dslr-camera/f/v/o/eos-1500d-canon-original-imafzfugydh2mjgf.jpeg?q=70",
+      "category": "Cameras"
+    },
+    {
+      "id": "20",
+      "name": "Drone",
+      "price": 49999,
+      "description": "High-performance drone with a 4K camera.",
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/drone/m/h/q/40-24-1-4k-wifi-dual-camera-drone-for-adults-kids-with-2-original-imagrfa6esxteknr.jpeg?q=70",
+      "category": "Cameras"
+    },
+    {
+      "id": "21",
+      "name": "Smart Thermostat",
+      "price": 7999,
+      "description": "Smart thermostat for home automation.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/kk01pjk0/electronic-hobby-kit/q/a/i/ac-220v-digital-led-dual-temperature-controller-thermostat-original-imafzfwv2gwbmzvy.jpeg?q=70",
+      "category": "Home"
+    },
+    {
+      "id": "22",
+      "name": "VR Headset",
+      "price": 15999,
+      "description": "Virtual reality headset for an immersive experience.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smart-glass/w/2/g/virtual-reality-headsets-with-built-in-controls-and-personalized-original-imah2ya8q3qnafwc.jpeg?q=70",
+      "category": "Gaming"
+    },
+    {
+      "id": "23",
+      "name": "Electric Kettle",
+      "price": 999,
+      "description": "Quick and easy electric kettle.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/kn7sdjk0/electric-kettle/f/x/g/kettle-1200-ml-kettle-1200-ml-pigeon-original-imagfxya6kxdtavt.jpeg?q=70",
+      "category": "Home"
+    },
+    {
+      "id": "24",
+      "name": "Portable Projector",
+      "price": 19999,
+      "description": "Compact projector for on-the-go use.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/projector/q/x/p/mini-projector-wifi-android-ios-full-hd-1080p-miracast-youtube-original-imagu3bxktpd3zj5.jpeg?q=70",
+      "category": "Electronics"
+    },
+    {
+      "id": "25",
+      "name": "Noise Cancelling Headphones",
+      "price": 10999,
+      "description": "Premium headphones with active noise cancellation.",
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/6/s/9/presnet-new-m10-tws-bluetooth-earbuds-wireless-earbuds-gaming-original-imah6ys6gjkvzq3c.jpeg?q=70",
+      "category": "Accessories"
+    }
+  ]
+}
