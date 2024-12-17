@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone X1",
+      "description": "The latest Smartphone X1 with a 6.5-inch display, 128GB storage, and a powerful camera setup. Perfect for photography and gaming.",
+      "price": 15999,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/c/n/9/-original-imah2qyrg2xryu8m.jpeg?q=70"
+    },
+    {
+      "id": 2,
+      "name": "Wireless Earbuds",
+      "description": "Experience high-quality sound with these wireless earbuds. Perfect for commuting or working out, with noise cancellation and long battery life.",
+      "price": 2499,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/f/b/v/-original-imagywufhynhgt7x.jpeg?q=70"
+    },
+    {
+      "id": 3,
+      "name": "Gaming Laptop Pro",
+      "description": "Powerful gaming laptop with Intel Core i7 processor, 16GB RAM, and a GTX 1660Ti graphics card. Ideal for gaming and intensive work tasks.",
+      "price": 74999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/computer/6/e/o/15-fa1327tx-gaming-laptop-hp-original-imah49jgajdqgjcz.jpeg?q=70"
+    },
+    {
+      "id": 4,
+      "name": "Bluetooth Speaker",
+      "description": "Compact, portable Bluetooth speaker with high-quality sound and deep bass. Perfect for parties or outdoor activities.",
+      "price": 1999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/speaker/v/e/7/-original-imagppdu6h49qhj7.jpeg?q=70"
+    },
+    {
+      "id": 5,
+      "name": "Smartwatch Pro",
+      "description": "Keep track of your fitness goals with the Smartwatch Pro. Features heart rate monitoring, step tracking, and sleep analysis.",
+      "price": 4999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/z/k/1/-original-imagz95fkccavf8d.jpeg?q=70"
+    },
+    {
+      "id": 6,
+      "name": "Electric Kettle",
+      "description": "Fast-boiling electric kettle with auto shut-off function and sleek stainless steel design. Ideal for tea or coffee lovers.",
+      "price": 1499,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/electric-kettle/0/c/j/-original-imagqjkdqjdayyn6.jpeg?q=70"
+    },
+    {
+      "id": 7,
+      "name": "Home Theater System",
+      "description": "Surround yourself with premium sound quality with this home theater system. 5.1 surround sound for the ultimate movie experience.",
+      "price": 19999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/krs40i80/speaker/home-theatre/3/f/q/cowin-series-5-1-home-theater-speaker-system-multimedia-with-fm-original-imag5hfzjgzgbchx.jpeg?q=70"
+    },
+    {
+      "id": 8,
+      "name": "Digital Camera 4K",
+      "description": "Capture stunning 4K videos and high-resolution images with the Digital Camera 4K. Features built-in stabilization and WiFi.",
+      "price": 28999,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/sports-action-camera/f/3/y/-original-imahyxtgqseqwhzr.jpeg?q=70"
+    },
+    {
+      "id": 9,
+      "name": "Cordless Vacuum Cleaner",
+      "description": "Powerful and lightweight cordless vacuum cleaner for all your home cleaning needs. Features a long-lasting battery and easy-to-use design.",
+      "price": 3999,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/vacuum-cleaner/b/y/5/2-in-1-wireless-handheld-air-blowing-and-6500-r-high-dust-original-imagqp5hrzy7akmk.jpeg?q=70"
+    },
+    {
+      "id": 10,
+      "name": "4K Smart TV",
+      "description": "Enjoy your favorite movies and shows in stunning 4K resolution with this Smart TV. Features built-in streaming apps and voice control.",
+      "price": 34999,
+      "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/television/u/s/s/-original-imah5ykhqwfybqft.jpeg?q=70"
+    },
+    {
+      "id": 11,
+      "name": "Noise Cancelling Headphones",
+      "description": "Immerse yourself in music without distractions with these noise-canceling headphones. Ideal for travelers and music enthusiasts.",
+      "price": 4999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=70"
+    },
+    {
+      "id": 12,
+      "name": "Portable Power Bank",
+      "description": "Never run out of battery with this portable power bank. 10000mAh capacity and fast charging support for your devices.",
+      "price": 999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/headphone/d/q/r/-original-imagp6skt77zsdjt.jpeg?q=70"
+    },
+    {
+      "id": 13,
+      "name": "Smart Thermostat",
+      "description": "Save energy and control your home temperature with the Smart Thermostat. Features WiFi connectivity and smart home integration.",
+      "price": 7999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/kk01pjk0/electronic-hobby-kit/q/a/i/ac-220v-digital-led-dual-temperature-controller-thermostat-original-imafzfwv2gwbmzvy.jpeg?q=70"
+    },
+    {
+      "id": 14,
+      "name": "Laptop Stand Adjustable",
+      "description": "Ergonomic and adjustable laptop stand that helps improve posture while working. Compact and portable design for any workspace.",
+      "price": 599,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/laptop-stand/x/v/1/1-6-por-2202-portronics-original-imagzgg3k9vwybuz.jpeg?q=70"
+    },
+    {
+      "id": 15,
+      "name": "VR Headset",
+      "description": "Experience virtual reality like never before with this high-quality VR headset. Compatible with gaming consoles and smartphones.",
+      "price": 7999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smart-glass/t/f/w/virtual-reality-headset-with-600-viewing-perfect-for-gaming-view-original-imah6w77mfg5n3pt.jpeg?q=70"
+    },
+    {
+      "id": 16,
+      "name": "Action Camera HD",
+      "description": "Capture all your adventures with the Action Camera HD. Features waterproof capabilities, HD recording, and wide-angle lens.",
+      "price": 5999,
+      "image": "https://rukminim2.flixcart.com/image/312/312/jmmce4w0/sports-action-camera/z/w/f/ultra-hd1080p-full-hd-action-camera-1080p-1080p-callie-original-imaf9g6mbmkgthxz.jpeg?q=70"
+    },
+    {
+      "id": 17,
+      "name": "LED Desk Lamp",
+      "description": "Brighten your workspace with this energy-efficient LED desk lamp. Adjustable brightness levels and a modern design.",
+      "price": 899,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/table-lamp/9/w/z/by-weird-wolf-3-colour-mode-led-table-desk-by-weird-wolf-3-original-imah44jhg8hyse6f.jpeg?q=70"
+    },
+    {
+      "id": 18,
+      "name": "Electric Shaver",
+      "description": "Get a close shave with this electric shaver. Features a waterproof design and multiple trimming attachments.",
+      "price": 2999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/l4yi7bk0/trimmer/q/l/1/0-5-3-mm-rechargeable-shaver-trimmer-for-men-electric-nose-original-imagfqg7c3ryt9pa.jpeg?q=70"
+    },
+    {
+      "id": 19,
+      "name": "Smart Door Lock",
+      "description": "Secure your home with this smart door lock. Features keyless entry, remote access, and auto-locking functionality.",
+      "price": 6999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/xif0q/smart-door-lock/w/b/i/ozlk001003-speedy-original-imah4zf9jyshmgap.jpeg?q=70"
+    },
+    {
+      "id": 20,
+      "name": "Mini Fridge",
+      "description": "Compact mini fridge with a sleek design, perfect for small spaces, offices, or dorm rooms.",
+      "price": 5999,
+      "image": "https://rukminim2.flixcart.com/image/612/612/kgqvlow0/compact-refrigerator/b/6/z/sfa-58-adorn-shopping-original-imafww89ykaauggn.jpeg?q=70"
+    }
+  ]
+}

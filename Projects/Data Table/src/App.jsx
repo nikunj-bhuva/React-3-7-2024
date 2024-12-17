@@ -1,15 +1,19 @@
 import SearchingData from "./components/SearchingData";
+import "./App.css";
 
 const App = () => {
   return (
-    <>
-      <div className="container">
-        <h1 className="mb-4 text-center bg-info mt-5 rounded-5 p-3">
-          Search Your Products
-        </h1>
-        <SearchingData />
-      </div>
-    </>
+    <div className="container">
+      <header className="bg-primary p-4 text-white text-center rounded-3">
+        <h1>Product Search & Sort</h1>
+      </header>
+
+      <SearchingData />
+
+      <footer className="bg-dark text-white text-center py-3 mt-5">
+        <p>© 2024 My E-commerce Site</p>
+      </footer>
+    </div>
   );
 };
 
