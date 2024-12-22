@@ -7,6 +7,7 @@ import FormControl from "./components/hooks/usestate/projects/formcontrol/FormCo
 import ToggleSwitcher from "./components/hooks/usestate/projects/togglebutton/ToggleSwitcher";
 import TodoApp from "./components/hooks/usestate/projects/todoapp/TodoApp";
 import UseeffectCounter from "./components/hooks/useeffect/UseEffectCounter";
+import CounterReducer from "./components/hooks/usereducer/Counter";
 
 const App = () => {
   return (
@@ -40,16 +41,21 @@ const App = () => {
 
       {/* useeffect counter  */}
 
-      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
         Use Effect
       </h1>
-      <UseeffectCounter />
+      <UseeffectCounter /> */}
 
       {/* usememo hook */}
 
       {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
         Use Memo
       </h1> */}
+
+      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+        Use Reducer
+      </h1>
+      <CounterReducer />
     </div>
   );
 };
