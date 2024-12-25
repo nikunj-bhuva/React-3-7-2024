@@ -7,9 +7,15 @@ import FormControl from "./components/hooks/usestate/projects/formcontrol/FormCo
 import ToggleSwitcher from "./components/hooks/usestate/projects/togglebutton/ToggleSwitcher";
 import TodoApp from "./components/hooks/usestate/projects/todoapp/TodoApp";
 import UseeffectCounter from "./components/hooks/useeffect/UseEffectCounter";
-import CounterReducer from "./components/hooks/usereducer/Counter";
+import Navbar from "./components/hooks/usecontext/Navbar";
+import ParentComponent from "./components/hooks/usecontext/ParentComponent";
+import { useState } from "react";
+import CounterContext from "./components/hooks/usecontext/context/context";
+// import CounterReducer from "./components/hooks/usereducer/Counter";
 
 const App = () => {
+  const [count, setCount] = useState(0);
+
   return (
     <div className="container">
       {/* <h1 className="text-center text-4xl mb-10 mt-10 bg-green-400 text-white font-bold p-3 rounded-full">
@@ -52,10 +58,18 @@ const App = () => {
         Use Memo
       </h1> */}
 
-      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+      {/* <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
         Use Reducer
       </h1>
-      <CounterReducer />
+      <CounterReducer /> */}
+
+      <h1 className="text-center text-4xl mb-16 mt-16 bg-zinc-500 text-white font-bold p-3 rounded-full">
+        Use Context
+      </h1>
+      <CounterContext.Provider value={{ count, setCount }}>
+        <Navbar />
+        <ParentComponent />
+      </CounterContext.Provider>
     </div>
   );
 };
